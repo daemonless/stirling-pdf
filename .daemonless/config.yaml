@@ -15,7 +15,7 @@ build:
         BASE_VERSION: "15-latest"
 
 cit:
-  mode: health
+  mode: screenshot
   port: 8080
   health: /
   
