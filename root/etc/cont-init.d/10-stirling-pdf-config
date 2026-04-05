@@ -1,0 +1,3 @@
+#!/bin/sh
+mkdir -p /config/configs /config/customFiles /config/pipeline /config/logs
+chown -R bsd:bsd /config

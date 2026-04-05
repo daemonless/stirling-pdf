@@ -1,0 +1,71 @@
+# syntax=docker/dockerfile:1
+ARG BASE_VERSION=15
+FROM ghcr.io/daemonless/base:${BASE_VERSION}
+
+ARG FREEBSD_ARCH=amd64
+ARG PACKAGES="openjdk21 ca_root_nss jq"
+ARG UPSTREAM_URL="https://api.github.com/repos/Stirling-Tools/Stirling-PDF/releases/latest"
+ARG UPSTREAM_JQ=".tag_name"
+{%- if ports %}
+ARG HEALTHCHECK_ENDPOINT="http://localhost:{{ ports[0].port }}/"
+{%- else %}
+ARG HEALTHCHECK_ENDPOINT="http://localhost:8080/"
+{%- endif %}
+
+ENV HEALTHCHECK_URL="${HEALTHCHECK_ENDPOINT}"
+
+LABEL org.opencontainers.image.title="{{ title }}" \
+      org.opencontainers.image.description="{{ description }}" \
+      org.opencontainers.image.source="{{ repo_url }}" \
+      org.opencontainers.image.url="{{ web_url }}" \
+      org.opencontainers.image.licenses="MIT" \
+      org.opencontainers.image.vendor="daemonless" \
+      org.opencontainers.image.authors="daemonless" \
+      io.daemonless.category="{{ category }}" \
+{%- if ports %}
+      io.daemonless.port="{{ ports[0].port }}" \
+{%- endif %}
+{%- if volumes %}
+      io.daemonless.volumes="{{ volumes | map(attribute='path') | join(',') }}" \
+{%- endif %}
+      io.daemonless.arch="${FREEBSD_ARCH}" \
+      io.daemonless.upstream-url="${UPSTREAM_URL}" \
+      io.daemonless.upstream-jq="${UPSTREAM_JQ}" \
+      io.daemonless.healthcheck-url="${HEALTHCHECK_ENDPOINT}" \
+      io.daemonless.packages="${PACKAGES}"
+
+# Install Java runtime
+RUN pkg update && \
+    pkg install -y ${PACKAGES} && \
+    pkg clean -ay && \
+    rm -rf /var/cache/pkg/* /var/db/pkg/repos/*
+
+# Download Stirling-PDF JAR
+RUN --mount=type=secret,id=github_token \
+    GITHUB_TOKEN=$(cat /run/secrets/github_token 2>/dev/null || true) && \
+    AUTH=$([ -n "$GITHUB_TOKEN" ] && echo "x-access-token:${GITHUB_TOKEN}@" || echo "") && \
+    VERSION=$(fetch -qo - "https://${AUTH}api.github.com/repos/Stirling-Tools/Stirling-PDF/releases/latest" | jq -r '.tag_name') && \
+    echo "Installing Stirling-PDF ${VERSION}" && \
+    mkdir -p /app && \
+    fetch -qo /app/Stirling-PDF.jar \
+        "https://github.com/Stirling-Tools/Stirling-PDF/releases/download/${VERSION}/Stirling-PDF.jar" && \
+    echo "${VERSION#v}" > /app/version && \
+    chown -R bsd:bsd /app
+
+RUN mkdir -p /config && chown -R bsd:bsd /config
+
+# Copy root filesystem
+COPY root/ /
+
+# Set permissions
+RUN chmod +x /etc/services.d/stirling-pdf/run /healthz /etc/cont-init.d/* 2>/dev/null || true
+
+# --- Expose (Injected by Generator) ---
+{%- if ports %}
+EXPOSE {{ ports | map(attribute='port') | join(' ') }}
+{%- endif %}
+
+# --- Volumes (Injected by Generator) ---
+{%- if volumes %}
+VOLUME {{ volumes | map(attribute='path') | join(' ') }}
+{%- endif %}
