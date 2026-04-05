@@ -18,4 +18,6 @@ cit:
   mode: screenshot
   port: 8080
   health: /
+  ready: "Stirling-PDF Started."
+  screenshot_wait: 2
   
