@@ -1,11 +1,11 @@
 {
-  "generated": "2026-04-07T19:22:08Z",
+  "generated": "2026-04-16T19:20:08Z",
   "image": "stirling-pdf",
   "tags": {
     "latest": {
       "app_version": "2.9.2",
       "arch": "amd64",
-      "generated": "2026-04-07T19:20:49Z",
+      "generated": "2026-04-16T19:18:25Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -147,7 +147,7 @@
           },
           {
             "name": "execline",
-            "version": "2.9.7.0"
+            "version": "2.9.8.1"
           },
           {
             "name": "expat",
@@ -207,7 +207,7 @@
           },
           {
             "name": "jpeg-turbo",
-            "version": "3.1.3"
+            "version": "3.1.4.1"
           },
           {
             "name": "jq",
@@ -315,7 +315,7 @@
           },
           {
             "name": "png",
-            "version": "1.6.55"
+            "version": "1.6.57"
           },
           {
             "name": "py311-packaging",
@@ -323,7 +323,7 @@
           },
           {
             "name": "python311",
-            "version": "3.11.15_1"
+            "version": "3.11.15_2"
           },
           {
             "name": "readline",
@@ -331,15 +331,15 @@
           },
           {
             "name": "s6",
-            "version": "2.13.2.0"
+            "version": "2.14.0.1"
           },
           {
             "name": "skalibs",
-            "version": "2.14.4.0"
+            "version": "2.14.5.1"
           },
           {
             "name": "tiff",
-            "version": "4.7.1"
+            "version": "4.7.1_1"
           },
           {
             "name": "xorg-fonts-truetype",
@@ -837,6 +837,10 @@
             "version": "5.2.5"
           },
           {
+            "name": "org.apache.tomcat.embed:tomcat-embed-el",
+            "version": "11.0.20"
+          },
+          {
             "name": "org.apache.xmlbeans:xmlbeans",
             "version": "5.3.0"
           },
@@ -1209,6 +1213,66 @@
             "version": "3.0.2"
           },
           {
+            "name": "org.springframework.boot:spring-boot",
+            "version": "4.0.5"
+          },
+          {
+            "name": "org.springframework.boot:spring-boot-actuator",
+            "version": "4.0.5"
+          },
+          {
+            "name": "org.springframework.boot:spring-boot-actuator-autoconfigure",
+            "version": "4.0.5"
+          },
+          {
+            "name": "org.springframework.boot:spring-boot-autoconfigure",
+            "version": "4.0.5"
+          },
+          {
+            "name": "org.springframework.boot:spring-boot-health",
+            "version": "4.0.5"
+          },
+          {
+            "name": "org.springframework.boot:spring-boot-http-converter",
+            "version": "4.0.5"
+          },
+          {
+            "name": "org.springframework.boot:spring-boot-jackson",
+            "version": "4.0.5"
+          },
+          {
+            "name": "org.springframework.boot:spring-boot-jarmode-tools",
+            "version": "4.0.5"
+          },
+          {
+            "name": "org.springframework.boot:spring-boot-jetty",
+            "version": "4.0.5"
+          },
+          {
+            "name": "org.springframework.boot:spring-boot-micrometer-metrics",
+            "version": "4.0.5"
+          },
+          {
+            "name": "org.springframework.boot:spring-boot-micrometer-observation",
+            "version": "4.0.5"
+          },
+          {
+            "name": "org.springframework.boot:spring-boot-servlet",
+            "version": "4.0.5"
+          },
+          {
+            "name": "org.springframework.boot:spring-boot-validation",
+            "version": "4.0.5"
+          },
+          {
+            "name": "org.springframework.boot:spring-boot-web-server",
+            "version": "4.0.5"
+          },
+          {
+            "name": "org.springframework.boot:spring-boot-webmvc",
+            "version": "4.0.5"
+          },
+          {
             "name": "org.springframework:spring-aop",
             "version": "7.0.6"
           },
@@ -1325,19 +1389,19 @@
         "dotnet": 0,
         "freebsd": 86,
         "go": 0,
-        "java": 237,
+        "java": 253,
         "node": 0,
         "php": 0,
         "python": 2,
         "ruby": 0,
         "rust": 0,
-        "total": 325
+        "total": 341
       }
     },
     "pkg": {
       "app_version": "2.2.1_1",
       "arch": "amd64",
-      "generated": "2026-04-07T19:10:31Z",
+      "generated": "2026-04-16T19:18:55Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1479,7 +1543,7 @@
           },
           {
             "name": "execline",
-            "version": "2.9.7.0"
+            "version": "2.9.8.1"
           },
           {
             "name": "expat",
@@ -1539,7 +1603,7 @@
           },
           {
             "name": "jpeg-turbo",
-            "version": "3.1.3"
+            "version": "3.1.4.1"
           },
           {
             "name": "jq",
@@ -1647,7 +1711,7 @@
           },
           {
             "name": "png",
-            "version": "1.6.55"
+            "version": "1.6.57"
           },
           {
             "name": "py311-packaging",
@@ -1655,7 +1719,7 @@
           },
           {
             "name": "python311",
-            "version": "3.11.15_1"
+            "version": "3.11.15_2"
           },
           {
             "name": "readline",
@@ -1663,11 +1727,11 @@
           },
           {
             "name": "s6",
-            "version": "2.13.2.0"
+            "version": "2.14.0.1"
           },
           {
             "name": "skalibs",
-            "version": "2.14.4.0"
+            "version": "2.14.5.1"
           },
           {
             "name": "stirling-pdf",
@@ -1675,7 +1739,7 @@
           },
           {
             "name": "tiff",
-            "version": "4.7.1"
+            "version": "4.7.1_1"
           },
           {
             "name": "xorg-fonts-truetype",
@@ -2817,7 +2881,7 @@
     "pkg-latest": {
       "app_version": "2.2.1_2",
       "arch": "amd64",
-      "generated": "2026-04-07T19:11:34Z",
+      "generated": "2026-04-16T19:18:47Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -3019,7 +3083,7 @@
           },
           {
             "name": "jpeg-turbo",
-            "version": "3.1.3"
+            "version": "3.1.4.1"
           },
           {
             "name": "jq",
@@ -3031,7 +3095,7 @@
           },
           {
             "name": "lerc",
-            "version": "4.0.0"
+            "version": "4.1.0"
           },
           {
             "name": "libICE",
@@ -3123,11 +3187,11 @@
           },
           {
             "name": "pkg",
-            "version": "2.6.2_1"
+            "version": "2.7.0"
           },
           {
             "name": "png",
-            "version": "1.6.55"
+            "version": "1.6.57"
           },
           {
             "name": "py311-packaging",
@@ -3135,7 +3199,7 @@
           },
           {
             "name": "python311",
-            "version": "3.11.15_1"
+            "version": "3.11.15_2"
           },
           {
             "name": "readline",
@@ -3155,7 +3219,7 @@
           },
           {
             "name": "tiff",
-            "version": "4.7.1"
+            "version": "4.7.1_1"
           },
           {
             "name": "xorg-fonts-truetype",
