@@ -1,11 +1,11 @@
 {
-  "generated": "2026-04-16T19:20:08Z",
+  "generated": "2026-04-30T07:06:25Z",
   "image": "stirling-pdf",
   "tags": {
     "latest": {
-      "app_version": "2.9.2",
+      "app_version": "2.10.0",
       "arch": "amd64",
-      "generated": "2026-04-16T19:18:25Z",
+      "generated": "2026-04-30T07:05:09Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -79,11 +79,11 @@
           },
           {
             "name": "FreeBSD-openssl",
-            "version": "15.0"
+            "version": "15.0p2"
           },
           {
             "name": "FreeBSD-openssl-lib",
-            "version": "15.0"
+            "version": "15.0p2"
           },
           {
             "name": "FreeBSD-pkg-bootstrap",
@@ -95,7 +95,7 @@
           },
           {
             "name": "FreeBSD-runtime",
-            "version": "15.0"
+            "version": "15.0p6"
           },
           {
             "name": "FreeBSD-tcpd",
@@ -1401,7 +1401,7 @@
     "pkg": {
       "app_version": "2.2.1_1",
       "arch": "amd64",
-      "generated": "2026-04-16T19:18:55Z",
+      "generated": "2026-04-30T07:04:06Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1475,11 +1475,11 @@
           },
           {
             "name": "FreeBSD-openssl",
-            "version": "15.0"
+            "version": "15.0p2"
           },
           {
             "name": "FreeBSD-openssl-lib",
-            "version": "15.0"
+            "version": "15.0p2"
           },
           {
             "name": "FreeBSD-pkg-bootstrap",
@@ -1491,7 +1491,7 @@
           },
           {
             "name": "FreeBSD-runtime",
-            "version": "15.0"
+            "version": "15.0p6"
           },
           {
             "name": "FreeBSD-tcpd",
@@ -2881,7 +2881,7 @@
     "pkg-latest": {
       "app_version": "2.2.1_2",
       "arch": "amd64",
-      "generated": "2026-04-16T19:18:47Z",
+      "generated": "2026-04-30T07:04:39Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2955,11 +2955,11 @@
           },
           {
             "name": "FreeBSD-openssl",
-            "version": "15.0"
+            "version": "15.0p2"
           },
           {
             "name": "FreeBSD-openssl-lib",
-            "version": "15.0"
+            "version": "15.0p2"
           },
           {
             "name": "FreeBSD-pkg-bootstrap",
@@ -2971,7 +2971,7 @@
           },
           {
             "name": "FreeBSD-runtime",
-            "version": "15.0"
+            "version": "15.0p6"
           },
           {
             "name": "FreeBSD-tcpd",
@@ -3027,7 +3027,7 @@
           },
           {
             "name": "expat",
-            "version": "2.7.5"
+            "version": "2.8.0"
           },
           {
             "name": "font-bh-ttf",
@@ -3091,7 +3091,7 @@
           },
           {
             "name": "lcms2",
-            "version": "2.18"
+            "version": "2.19"
           },
           {
             "name": "lerc",
@@ -3107,7 +3107,7 @@
           },
           {
             "name": "libX11",
-            "version": "1.8.13,1"
+            "version": "1.8.13_1,1"
           },
           {
             "name": "libXau",
@@ -3179,7 +3179,7 @@
           },
           {
             "name": "openjdk25",
-            "version": "25.0.2+10.f.1_2"
+            "version": "25.0.3+9.f.1"
           },
           {
             "name": "pcre2",
@@ -3187,15 +3187,15 @@
           },
           {
             "name": "pkg",
-            "version": "2.7.0"
+            "version": "2.7.4"
           },
           {
             "name": "png",
-            "version": "1.6.57"
+            "version": "1.6.58"
           },
           {
             "name": "py311-packaging",
-            "version": "26.0"
+            "version": "26.1"
           },
           {
             "name": "python311",
@@ -4338,7 +4338,7 @@
           },
           {
             "name": "packaging",
-            "version": "26.0"
+            "version": "26.1"
           }
         ],
         "ruby": [],
