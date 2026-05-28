@@ -124,8 +124,6 @@ podman run -d --name stirling-pdf \
       - "/path/to/containers/stirling-pdf:/config"
 ```
 
-Access at: `http://localhost:8080`
-
 ## Parameters
 
 ### Environment Variables

@@ -40,15 +40,20 @@ RUN pkg update && \
 
 # Download Stirling-PDF JAR
 RUN --mount=type=secret,id=github_token \
-    GITHUB_TOKEN=$(cat /run/secrets/github_token 2>/dev/null || true) && \
-    AUTH=$([ -n "$GITHUB_TOKEN" ] && echo "x-access-token:${GITHUB_TOKEN}@" || echo "") && \
-    VERSION=$(fetch -qo - "https://${AUTH}api.github.com/repos/Stirling-Tools/Stirling-PDF/releases/latest" | jq -r '.tag_name') && \
+    GITHUB_TOKEN=$(cat /run/secrets/github_token 2>/dev/null || echo "") && \
+    if [ -n "${GITHUB_TOKEN}" ]; then \
+      printf 'machine api.github.com login x-access-token password %s\nmachine github.com login x-access-token password %s\n' \
+        "${GITHUB_TOKEN}" "${GITHUB_TOKEN}" > /root/.netrc && \
+      chmod 600 /root/.netrc; \
+    fi && \
+    VERSION=$(fetch -qo - "https://api.github.com/repos/Stirling-Tools/Stirling-PDF/releases/latest" | jq -r '.tag_name') && \
     echo "Installing Stirling-PDF ${VERSION}" && \
     mkdir -p /app && \
     fetch -qo /app/Stirling-PDF.jar \
         "https://github.com/Stirling-Tools/Stirling-PDF/releases/download/${VERSION}/Stirling-PDF.jar" && \
     echo "${VERSION#v}" > /app/version && \
-    chown -R bsd:bsd /app
+    chown -R bsd:bsd /app && \
+    rm -f /root/.netrc
 
 RUN mkdir -p /config && chown -R bsd:bsd /config
 
