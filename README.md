@@ -36,16 +36,16 @@ Before deploying, ensure your host environment is ready. See the [Quick Start Gu
 ```yaml
 services:
   stirling-pdf:
-    image: ghcr.io/daemonless/stirling-pdf:latest
+    image: "ghcr.io/daemonless/stirling-pdf:latest"
     container_name: stirling-pdf
     environment:
-      - PUID=1000
-      - PGID=1000
-      - TZ=UTC
+      - PUID=1000  # User ID for the application process
+      - PGID=1000  # Group ID for the application process
+      - TZ=UTC  # Timezone for the container
     volumes:
       - "/path/to/containers/stirling-pdf:/config"
     ports:
-      - 8080:8080
+      - "8080:8080"
     restart: unless-stopped
 ```
 
@@ -111,7 +111,7 @@ podman run -d --name stirling-pdf \
 - name: Deploy stirling-pdf
   containers.podman.podman_container:
     name: stirling-pdf
-    image: ghcr.io/daemonless/stirling-pdf:latest
+    image: "ghcr.io/daemonless/stirling-pdf:latest"
     state: started
     restart_policy: always
     env:
@@ -123,6 +123,8 @@ podman run -d --name stirling-pdf \
     volumes:
       - "/path/to/containers/stirling-pdf:/config"
 ```
+
+Access at: `http://localhost:8080`
 
 ## Parameters
 

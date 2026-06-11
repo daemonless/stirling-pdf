@@ -9,7 +9,7 @@ ARG BASE_VERSION=15
 FROM ghcr.io/daemonless/base:${BASE_VERSION}
 
 ARG FREEBSD_ARCH=amd64
-ARG PACKAGES="openjdk21 ca_root_nss jq"
+ARG PACKAGES="openjdk25 ca_root_nss jq"
 ARG UPSTREAM_URL="https://api.github.com/repos/Stirling-Tools/Stirling-PDF/releases/latest"
 ARG UPSTREAM_JQ=".tag_name"
 ARG HEALTHCHECK_ENDPOINT="http://localhost:8080/"
