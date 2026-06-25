@@ -1,11 +1,11 @@
 {
-  "generated": "2026-06-19T21:08:56Z",
+  "generated": "2026-06-25T07:31:57Z",
   "image": "stirling-pdf",
   "tags": {
     "latest": {
-      "app_version": "2.13.1",
+      "app_version": "2.13.2",
       "arch": "amd64",
-      "generated": "2026-06-19T21:07:34Z",
+      "generated": "2026-06-25T07:27:01Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -323,7 +323,7 @@
           },
           {
             "name": "python311",
-            "version": "3.11.15_3"
+            "version": "3.11.15_4"
           },
           {
             "name": "readline",
@@ -430,11 +430,11 @@
           },
           {
             "name": "com.google.code.gson:gson",
-            "version": "2.13.2"
+            "version": "2.14.0"
           },
           {
             "name": "com.google.errorprone:error_prone_annotations",
-            "version": "2.47.0"
+            "version": "2.48.0"
           },
           {
             "name": "com.google.guava:failureaccess",
@@ -1429,7 +1429,7 @@
     "pkg": {
       "app_version": "2.2.1_1",
       "arch": "amd64",
-      "generated": "2026-06-19T21:01:57Z",
+      "generated": "2026-06-25T07:29:10Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1747,7 +1747,7 @@
           },
           {
             "name": "python311",
-            "version": "3.11.15_3"
+            "version": "3.11.15_4"
           },
           {
             "name": "readline",
@@ -2909,7 +2909,7 @@
     "pkg-latest": {
       "app_version": "2.2.1_2",
       "arch": "amd64",
-      "generated": "2026-06-19T21:03:16Z",
+      "generated": "2026-06-25T07:30:45Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -3095,7 +3095,7 @@
           },
           {
             "name": "harfbuzz",
-            "version": "13.2.1"
+            "version": "14.2.1"
           },
           {
             "name": "indexinfo",
@@ -3231,7 +3231,7 @@
           },
           {
             "name": "python311",
-            "version": "3.11.15_3"
+            "version": "3.11.15_4"
           },
           {
             "name": "readline",
