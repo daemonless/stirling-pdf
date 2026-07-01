@@ -5,7 +5,7 @@
 # --------------------------------------------------------------------------
 
 # syntax=docker/dockerfile:1
-ARG BASE_VERSION=15
+ARG BASE_VERSION=15.1
 FROM ghcr.io/daemonless/base:${BASE_VERSION}
 
 ARG FREEBSD_ARCH=amd64

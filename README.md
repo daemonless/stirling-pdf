@@ -18,7 +18,6 @@ Locally hosted web application for performing various operations on PDF files â€
 | **Website** | [https://www.stirlingpdf.com/](https://www.stirlingpdf.com/) |
 
 ## Version Tags
-
 | Tag | Description | Best For |
 | :--- | :--- | :--- |
 | `latest` | **Upstream Binary**. Built from official release. | Alternative build. |
@@ -26,7 +25,6 @@ Locally hosted web application for performing various operations on PDF files â€
 | `pkg-latest` | **FreeBSD Latest**. Rolling package updates. | Newest FreeBSD packages. |
 
 ## Prerequisites
-
 Before deploying, ensure your host environment is ready. See the [Quick Start Guide](https://daemonless.io/guides/quick-start) for host setup instructions.
 
 ## Deployment
@@ -50,10 +48,11 @@ services:
 ```
 
 ### AppJail Director
-
 **.env**:
 
 ```
+# .env
+
 DIRECTOR_PROJECT=stirling-pdf
 PUID=1000
 PGID=1000
@@ -63,6 +62,8 @@ TZ=UTC
 **appjail-director.yml**:
 
 ```yaml
+# appjail-director.yml
+
 options:
   - virtualnet: ':<random> default'
   - nat:
@@ -71,6 +72,7 @@ services:
     name: stirling_pdf
     options:
       - container: 'boot args:--pull'
+      - expose: '8080:8080 proto:tcp' \
     oci:
       user: root
       environment:
@@ -87,11 +89,14 @@ volumes:
 **Makejail**:
 
 ```
+# Makejail
+
 ARG tag=latest
 
 OPTION overwrite=force
 OPTION from=ghcr.io/daemonless/stirling-pdf:${tag}
 ```
+**Note**: Exposing ports in AppJail means that your service can be reached from remote hosts. If that is not your intention, do not expose the ports and communicate with the service using the IPv4 address assigned by the virtual network.
 
 ### Podman CLI
 
@@ -104,6 +109,23 @@ podman run -d --name stirling-pdf \
   -v /path/to/containers/stirling-pdf:/config \
   ghcr.io/daemonless/stirling-pdf:latest
 ```
+
+### AppJail
+
+```bash
+appjail oci run -Pd \
+  -o overwrite=force \
+  -o container="args:--pull" \
+  -o virtualnet=":<random> default" \
+  -o nat \
+  -o expose="8080:8080 proto:tcp" \
+  -e PUID=1000 \
+  -e PGID=1000 \
+  -e TZ=UTC \
+  -o fstab="/path/to/containers/stirling-pdf /config <pseudofs>" \
+  ghcr.io/daemonless/stirling-pdf:latest stirling-pdf
+```
+**Note**: Exposing ports in AppJail means that your service can be reached from remote hosts. If that is not your intention, do not expose the ports and communicate with the service using the IPv4 address assigned by the virtual network.
 
 ### Ansible
 
@@ -150,7 +172,7 @@ Access at: `http://localhost:8080`
 
 **Architectures:** amd64
 **User:** `bsd` (UID/GID via PUID/PGID, defaults to 1000:1000)
-**Base:** FreeBSD 15.0
+**Base:** FreeBSD 15.1
 
 ---
 
