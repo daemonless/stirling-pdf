@@ -1,371 +1,653 @@
 {
-  "generated": "2026-07-25T20:42:56Z",
+  "generated": "2026-08-01T20:02:33Z",
   "image": "stirling-pdf",
   "tags": {
     "latest": {
       "app_version": "2.14.2",
       "arch": "amd64",
-      "generated": "2026-07-25T00:06:54Z",
+      "generated": "2026-08-01T19:36:33Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-audit-lib",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-blocklist",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-bzip2-lib",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-certctl",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-clibs",
-            "version": "15.1p1"
+            "version": "15.1p2"
           },
           {
+            "licenses": [
+              "CDDL-1.0"
+            ],
             "name": "FreeBSD-ctf-lib",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-fetch",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-kerberos-lib",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-libarchive",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-libbsdstat",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-libcasper",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-libexecinfo",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-libldns",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-libmagic",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-libucl",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-locales",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-mtree",
-            "version": "15.1"
+            "version": "15.1p2"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-ncurses-lib",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-openssl",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-openssl-lib",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-pam-lib",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-pkg-bootstrap",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-rc",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p1"
+            "version": "15.1p2"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-tcpd",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-ufs-lib",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-utilities",
-            "version": "15.1p1"
+            "version": "15.1p2"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-xz-lib",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "CDDL-1.0"
+            ],
             "name": "FreeBSD-zfs-lib",
             "version": "15.1p1"
           },
           {
+            "licenses": [
+              "Zlib"
+            ],
             "name": "FreeBSD-zlib",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "PD"
+            ],
             "name": "FreeBSD-zoneinfo",
-            "version": "15.1"
+            "version": "15.1p2"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-zstd-lib",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "LGPL21+"
+            ],
             "name": "alsa-lib",
             "version": "1.2.15.3"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "brotli",
             "version": "1.2.0,1"
           },
           {
+            "licenses": [
+              "MPL20"
+            ],
             "name": "ca_root_nss",
             "version": "3.125"
           },
           {
+            "licenses": [
+              "AMS",
+              "AREV",
+              "BITSTREAM"
+            ],
             "name": "dejavu",
             "version": "2.37_4"
           },
           {
+            "licenses": [
+              "PD"
+            ],
             "name": "encodings",
             "version": "1.1.0,1"
           },
           {
+            "licenses": [
+              "ISCL"
+            ],
             "name": "execline",
             "version": "2.9.8.1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "expat",
             "version": "2.8.2"
           },
           {
+            "licenses": [
+              "LUXI"
+            ],
             "name": "font-bh-ttf",
             "version": "1.0.4"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "font-misc-ethiopic",
             "version": "1.0.5"
           },
           {
+            "licenses": [
+              "MELTHO"
+            ],
             "name": "font-misc-meltho",
             "version": "1.0.4"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "fontconfig",
             "version": "2.17.1,1"
           },
           {
+            "licenses": [
+              "GPLv2+",
+              "FTL"
+            ],
             "name": "freetype2",
             "version": "2.14.3"
           },
           {
+            "licenses": [
+              "LGPL21+",
+              "GPLv3+"
+            ],
             "name": "gettext-runtime",
             "version": "1.0_1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "giflib",
             "version": "5.2.2"
           },
           {
+            "licenses": [
+              "LGPL20"
+            ],
             "name": "glib",
             "version": "2.86.4,2"
           },
           {
+            "licenses": [
+              "MPL20",
+              "GPLv2",
+              "LGPL21"
+            ],
             "name": "graphite2",
             "version": "1.3.15"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "harfbuzz",
             "version": "14.2.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "indexinfo",
             "version": "0.3.1_1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE",
+              "BEERWARE"
+            ],
             "name": "javavmwrapper",
             "version": "2.7.10_2"
           },
           {
+            "licenses": [
+              "GPLv2+"
+            ],
             "name": "jbigkit",
             "version": "2.1_3"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE",
+              "IJG",
+              "ZLIB"
+            ],
             "name": "jpeg-turbo",
             "version": "3.1.4.1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "jq",
             "version": "1.8.2"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "lcms2",
             "version": "2.19.1"
           },
           {
+            "licenses": [
+              "APACHE20"
+            ],
             "name": "lerc",
             "version": "4.1.0"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libICE",
             "version": "1.1.2,1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libSM",
             "version": "1.2.6,1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libX11",
             "version": "1.8.13_1,1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libXau",
             "version": "1.0.12"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libXdmcp",
             "version": "1.1.5"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libXext",
             "version": "1.3.7,1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libXfixes",
             "version": "6.0.1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libXi",
             "version": "1.8.3,1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libXrandr",
             "version": "1.5.5"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libXrender",
             "version": "0.9.12"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libXt",
             "version": "1.3.1,1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libXtst",
             "version": "1.2.5"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libdeflate",
             "version": "1.25"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libffi",
             "version": "3.6.0"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libfontenc",
             "version": "1.1.9"
           },
           {
+            "licenses": [
+              "GPLv3"
+            ],
             "name": "libiconv",
             "version": "1.18_1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE",
+              "GPLv2"
+            ],
             "name": "liblz4",
             "version": "1.10.0_2,1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libxcb",
             "version": "1.17.0"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "mkfontscale",
             "version": "1.2.4"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "mpdecimal",
             "version": "4.0.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "oniguruma",
             "version": "6.9.10"
           },
           {
+            "licenses": [
+              "GPLv2"
+            ],
             "name": "openjdk25",
             "version": "25.0.3+9.f.1"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE"
+            ],
             "name": "pcre2",
             "version": "10.47_1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "pkg",
             "version": "2.7.5"
           },
           {
+            "licenses": [
+              "Libpng"
+            ],
             "name": "png",
             "version": "1.6.58"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE",
+              "APACHE20"
+            ],
             "name": "py312-packaging",
             "version": "26.2"
           },
           {
+            "licenses": [
+              "PSFL"
+            ],
             "name": "python312",
             "version": "3.12.13_3"
           },
           {
+            "licenses": [
+              "GPLv3"
+            ],
             "name": "readline",
             "version": "8.3.3"
           },
           {
+            "licenses": [
+              "ISCL"
+            ],
             "name": "s6",
             "version": "2.14.0.1"
           },
           {
+            "licenses": [
+              "ISCL"
+            ],
             "name": "skalibs",
             "version": "2.14.5.1"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE"
+            ],
             "name": "tiff",
             "version": "4.7.1_1"
           },
           {
+            "licenses": [
+              "NA"
+            ],
             "name": "xorg-fonts-truetype",
             "version": "7.7_1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "xorgproto",
             "version": "2025.1"
           },
           {
+            "licenses": [
+              "GPLv2",
+              "BSD3CLAUSE"
+            ],
             "name": "zstd",
             "version": "1.5.7_2"
           }
@@ -374,1042 +656,1302 @@
         "java": [
           {
             "name": "ch.qos.logback:logback-classic",
+            "purl": "",
             "version": "1.5.32"
           },
           {
             "name": "ch.qos.logback:logback-core",
+            "purl": "",
             "version": "1.5.32"
           },
           {
             "name": "com.adobe.xmp:xmpcore",
+            "purl": "",
             "version": "6.1.11"
           },
           {
             "name": "com.bucket4j:bucket4j_jdk17-core",
+            "purl": "",
             "version": "8.19.0"
           },
           {
             "name": "com.drewnoakes:metadata-extractor",
+            "purl": "",
             "version": "2.20.0"
           },
           {
             "name": "com.fasterxml.jackson.core:jackson-annotations",
+            "purl": "",
             "version": "2.21"
           },
           {
             "name": "com.fasterxml.jackson.core:jackson-core",
+            "purl": "",
             "version": "2.21.2"
           },
           {
             "name": "com.fasterxml.jackson.core:jackson-databind",
+            "purl": "",
             "version": "2.21.2"
           },
           {
             "name": "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml",
+            "purl": "",
             "version": "2.21.2"
           },
           {
             "name": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310",
+            "purl": "",
             "version": "2.21.2"
           },
           {
             "name": "com.fasterxml:classmate",
+            "purl": "",
             "version": "1.7.3"
           },
           {
             "name": "com.fathzer:javaluator",
+            "purl": "",
             "version": "3.0.6"
           },
           {
             "name": "com.github.bbottema:jetbrains-runtime-annotations",
+            "purl": "",
             "version": "1.0.2"
           },
           {
             "name": "com.github.bbottema:rtf-to-html",
+            "purl": "",
             "version": "1.1.1"
           },
           {
             "name": "com.github.jai-imageio:jai-imageio-core",
+            "purl": "",
             "version": "1.4.0"
           },
           {
             "name": "com.github.jai-imageio:jai-imageio-jpeg2000",
+            "purl": "",
             "version": "1.4.0"
           },
           {
             "name": "com.github.junrar:junrar",
+            "purl": "",
             "version": "7.5.10"
           },
           {
             "name": "com.github.virtuald:curvesapi",
+            "purl": "",
             "version": "1.08"
           },
           {
             "name": "com.google.code.gson:gson",
+            "purl": "",
             "version": "2.14.0"
           },
           {
             "name": "com.google.errorprone:error_prone_annotations",
+            "purl": "",
             "version": "2.48.0"
           },
           {
             "name": "com.google.guava:failureaccess",
+            "purl": "",
             "version": "1.0.3"
           },
           {
             "name": "com.google.guava:guava",
+            "purl": "",
             "version": "33.6.0-jre"
           },
           {
             "name": "com.google.guava:listenablefuture",
+            "purl": "",
             "version": "9999.0-empty-to-avoid-conflict-with-guava"
           },
           {
             "name": "com.google.j2objc:j2objc-annotations",
+            "purl": "",
             "version": "3.1"
           },
           {
             "name": "com.google.zxing:core",
+            "purl": "",
             "version": "3.5.4"
           },
           {
             "name": "com.googlecode.owasp-java-html-sanitizer:java10-shim",
+            "purl": "",
             "version": "20260313.1"
           },
           {
             "name": "com.googlecode.owasp-java-html-sanitizer:java8-shim",
+            "purl": "",
             "version": "20260313.1"
           },
           {
             "name": "com.googlecode.owasp-java-html-sanitizer:owasp-java-html-sanitizer",
+            "purl": "",
             "version": "20260313.1"
           },
           {
             "name": "com.opencsv:opencsv",
+            "purl": "",
             "version": "5.12.0"
           },
           {
             "name": "com.pivovarit:throwing-function",
+            "purl": "",
             "version": "1.6.1"
           },
           {
             "name": "com.posthog.java:posthog",
+            "purl": "",
             "version": "1.2.0"
           },
           {
             "name": "com.sanctionco.jmail:jmail",
+            "purl": "",
             "version": "1.6.3"
           },
           {
             "name": "com.stirling:jpdfium",
+            "purl": "",
             "version": "1.0.1"
           },
           {
             "name": "com.stirling:jpdfium-natives-darwin-arm64",
+            "purl": "",
             "version": "1.0.2"
           },
           {
             "name": "com.stirling:jpdfium-natives-darwin-x64",
+            "purl": "",
             "version": "1.0.2"
           },
           {
             "name": "com.stirling:jpdfium-natives-linux-arm64",
+            "purl": "",
             "version": "1.0.2"
           },
           {
             "name": "com.stirling:jpdfium-natives-linux-x64",
+            "purl": "",
             "version": "1.0.2"
           },
           {
             "name": "com.stirling:jpdfium-natives-windows-x64",
+            "purl": "",
             "version": "1.0.2"
           },
           {
             "name": "com.sun.activation:jakarta.activation",
+            "purl": "",
             "version": "1.2.2"
           },
           {
             "name": "com.sun.istack:istack-commons-runtime",
+            "purl": "",
             "version": "3.0.12"
           },
           {
             "name": "com.sun.xml.bind:jaxb-core",
+            "purl": "",
             "version": "4.0.7"
           },
           {
             "name": "com.sun.xml.bind:jaxb-impl",
+            "purl": "",
             "version": "2.3.9"
           },
           {
             "name": "com.twelvemonkeys.common:common-image",
+            "purl": "",
             "version": "3.13.1"
           },
           {
             "name": "com.twelvemonkeys.common:common-io",
+            "purl": "",
             "version": "3.13.1"
           },
           {
             "name": "com.twelvemonkeys.common:common-lang",
+            "purl": "",
             "version": "3.13.1"
           },
           {
             "name": "com.twelvemonkeys.imageio:imageio-batik",
+            "purl": "",
             "version": "3.13.1"
           },
           {
             "name": "com.twelvemonkeys.imageio:imageio-bmp",
+            "purl": "",
             "version": "3.13.1"
           },
           {
             "name": "com.twelvemonkeys.imageio:imageio-core",
+            "purl": "",
             "version": "3.13.1"
           },
           {
             "name": "com.twelvemonkeys.imageio:imageio-jpeg",
+            "purl": "",
             "version": "3.13.1"
           },
           {
             "name": "com.twelvemonkeys.imageio:imageio-metadata",
+            "purl": "",
             "version": "3.13.1"
           },
           {
             "name": "com.twelvemonkeys.imageio:imageio-psd",
+            "purl": "",
             "version": "3.13.1"
           },
           {
             "name": "com.twelvemonkeys.imageio:imageio-tiff",
+            "purl": "",
             "version": "3.13.1"
           },
           {
             "name": "com.twelvemonkeys.imageio:imageio-webp",
+            "purl": "",
             "version": "3.13.1"
           },
           {
             "name": "com.vladsch.flexmark:flexmark",
+            "purl": "",
             "version": "0.64.8"
           },
           {
             "name": "com.vladsch.flexmark:flexmark-ext-emoji",
+            "purl": "",
             "version": "0.64.8"
           },
           {
             "name": "com.vladsch.flexmark:flexmark-ext-gfm-strikethrough",
+            "purl": "",
             "version": "0.64.8"
           },
           {
             "name": "com.vladsch.flexmark:flexmark-ext-ins",
+            "purl": "",
             "version": "0.64.8"
           },
           {
             "name": "com.vladsch.flexmark:flexmark-ext-superscript",
+            "purl": "",
             "version": "0.64.8"
           },
           {
             "name": "com.vladsch.flexmark:flexmark-ext-tables",
+            "purl": "",
             "version": "0.64.8"
           },
           {
             "name": "com.vladsch.flexmark:flexmark-ext-wikilink",
+            "purl": "",
             "version": "0.64.8"
           },
           {
             "name": "com.vladsch.flexmark:flexmark-html2md-converter",
+            "purl": "",
             "version": "0.64.8"
           },
           {
             "name": "com.vladsch.flexmark:flexmark-jira-converter",
+            "purl": "",
             "version": "0.64.8"
           },
           {
             "name": "com.vladsch.flexmark:flexmark-util",
+            "purl": "",
             "version": "0.64.8"
           },
           {
             "name": "com.vladsch.flexmark:flexmark-util-ast",
+            "purl": "",
             "version": "0.64.8"
           },
           {
             "name": "com.vladsch.flexmark:flexmark-util-builder",
+            "purl": "",
             "version": "0.64.8"
           },
           {
             "name": "com.vladsch.flexmark:flexmark-util-collection",
+            "purl": "",
             "version": "0.64.8"
           },
           {
             "name": "com.vladsch.flexmark:flexmark-util-data",
+            "purl": "",
             "version": "0.64.8"
           },
           {
             "name": "com.vladsch.flexmark:flexmark-util-dependency",
+            "purl": "",
             "version": "0.64.8"
           },
           {
             "name": "com.vladsch.flexmark:flexmark-util-format",
+            "purl": "",
             "version": "0.64.8"
           },
           {
             "name": "com.vladsch.flexmark:flexmark-util-html",
+            "purl": "",
             "version": "0.64.8"
           },
           {
             "name": "com.vladsch.flexmark:flexmark-util-misc",
+            "purl": "",
             "version": "0.64.8"
           },
           {
             "name": "com.vladsch.flexmark:flexmark-util-options",
+            "purl": "",
             "version": "0.64.8"
           },
           {
             "name": "com.vladsch.flexmark:flexmark-util-sequence",
+            "purl": "",
             "version": "0.64.8"
           },
           {
             "name": "com.vladsch.flexmark:flexmark-util-visitor",
+            "purl": "",
             "version": "0.64.8"
           },
           {
             "name": "com.zaxxer:SparseBitSet",
+            "purl": "",
             "version": "1.3"
           },
           {
             "name": "commons-beanutils:commons-beanutils",
+            "purl": "",
             "version": "1.11.0"
           },
           {
             "name": "commons-cli:commons-cli",
+            "purl": "",
             "version": "1.4"
           },
           {
             "name": "commons-codec:commons-codec",
+            "purl": "",
             "version": "1.19.0"
           },
           {
             "name": "commons-collections:commons-collections",
+            "purl": "",
             "version": "3.2.2"
           },
           {
             "name": "commons-io:commons-io",
+            "purl": "",
             "version": "2.22.0"
           },
           {
             "name": "commons-logging:commons-logging",
+            "purl": "",
             "version": "1.3.6"
           },
           {
             "name": "de.rototor.pdfbox:graphics2d",
+            "purl": "",
             "version": "3.0.5"
           },
           {
             "name": "io.github.pixee:java-security-toolkit",
+            "purl": "",
             "version": "1.2.3"
           },
           {
             "name": "io.micrometer:micrometer-commons",
+            "purl": "",
             "version": "1.16.5"
           },
           {
             "name": "io.micrometer:micrometer-core",
+            "purl": "",
             "version": "1.16.5"
           },
           {
             "name": "io.micrometer:micrometer-jakarta9",
+            "purl": "",
             "version": "1.16.5"
           },
           {
             "name": "io.micrometer:micrometer-observation",
+            "purl": "",
             "version": "1.16.5"
           },
           {
             "name": "io.swagger.core.v3:swagger-annotations-jakarta",
+            "purl": "",
             "version": "2.2.47"
           },
           {
             "name": "io.swagger.core.v3:swagger-core-jakarta",
+            "purl": "",
             "version": "2.2.47"
           },
           {
             "name": "io.swagger.core.v3:swagger-models-jakarta",
+            "purl": "",
             "version": "2.2.47"
           },
           {
             "name": "jakarta.activation:jakarta.activation-api",
+            "purl": "",
             "version": "2.1.4"
           },
           {
             "name": "jakarta.annotation:jakarta.annotation-api",
+            "purl": "",
             "version": "3.0.0"
           },
           {
             "name": "jakarta.enterprise:jakarta.enterprise.cdi-api",
+            "purl": "",
             "version": "4.1.0"
           },
           {
             "name": "jakarta.enterprise:jakarta.enterprise.lang-model",
+            "purl": "",
             "version": "4.1.0"
           },
           {
             "name": "jakarta.inject:jakarta.inject-api",
+            "purl": "",
             "version": "2.0.1"
           },
           {
             "name": "jakarta.interceptor:jakarta.interceptor-api",
+            "purl": "",
             "version": "2.2.0"
           },
           {
             "name": "jakarta.mail:jakarta.mail-api",
+            "purl": "",
             "version": "2.1.5"
           },
           {
             "name": "jakarta.servlet:jakarta.servlet-api",
+            "purl": "",
             "version": "6.1.0"
           },
           {
             "name": "jakarta.transaction:jakarta.transaction-api",
+            "purl": "",
             "version": "2.0.1"
           },
           {
             "name": "jakarta.validation:jakarta.validation-api",
+            "purl": "",
             "version": "3.1.1"
           },
           {
             "name": "jakarta.websocket:jakarta.websocket-api",
+            "purl": "",
             "version": "2.2.0"
           },
           {
             "name": "jakarta.websocket:jakarta.websocket-client-api",
+            "purl": "",
             "version": "2.2.0"
           },
           {
             "name": "jakarta.xml.bind:jakarta.xml.bind-api",
+            "purl": "",
             "version": "4.0.4"
           },
           {
             "name": "javax.activation:javax.activation-api",
+            "purl": "",
             "version": "1.2.0"
           },
           {
             "name": "javax.xml.bind:jaxb-api",
+            "purl": "",
             "version": "2.3.1"
           },
           {
             "name": "net.java.dev.stax-utils:stax-utils",
+            "purl": "",
             "version": "20070216"
           },
           {
             "name": "org.apache.commons:commons-collections4",
+            "purl": "",
             "version": "4.5.0"
           },
           {
             "name": "org.apache.commons:commons-compress",
+            "purl": "",
             "version": "1.28.0"
           },
           {
             "name": "org.apache.commons:commons-csv",
+            "purl": "",
             "version": "1.9.0"
           },
           {
             "name": "org.apache.commons:commons-lang3",
+            "purl": "",
             "version": "3.20.0"
           },
           {
             "name": "org.apache.commons:commons-math3",
+            "purl": "",
             "version": "3.6.1"
           },
           {
             "name": "org.apache.commons:commons-text",
+            "purl": "",
             "version": "1.13.1"
           },
           {
             "name": "org.apache.httpcomponents:httpclient",
+            "purl": "",
             "version": "4.5.14"
           },
           {
             "name": "org.apache.httpcomponents:httpcore",
+            "purl": "",
             "version": "4.4.16"
           },
           {
             "name": "org.apache.httpcomponents:httpmime",
+            "purl": "",
             "version": "4.5.14"
           },
           {
             "name": "org.apache.logging.log4j:log4j-api",
+            "purl": "",
             "version": "2.25.4"
           },
           {
             "name": "org.apache.logging.log4j:log4j-to-slf4j",
+            "purl": "",
             "version": "2.25.4"
           },
           {
             "name": "org.apache.pdfbox:fontbox",
+            "purl": "",
             "version": "3.0.7"
           },
           {
             "name": "org.apache.pdfbox:jbig2-imageio",
+            "purl": "",
             "version": "3.0.4"
           },
           {
             "name": "org.apache.pdfbox:pdfbox",
+            "purl": "",
             "version": "3.0.7"
           },
           {
             "name": "org.apache.pdfbox:pdfbox-io",
+            "purl": "",
             "version": "3.0.7"
           },
           {
             "name": "org.apache.pdfbox:preflight",
+            "purl": "",
             "version": "3.0.7"
           },
           {
             "name": "org.apache.pdfbox:xmpbox",
+            "purl": "",
             "version": "3.0.7"
           },
           {
             "name": "org.apache.poi:poi",
+            "purl": "",
             "version": "5.5.1"
           },
           {
             "name": "org.apache.poi:poi-ooxml",
+            "purl": "",
             "version": "5.5.1"
           },
           {
             "name": "org.apache.poi:poi-ooxml-lite",
+            "purl": "",
             "version": "5.5.1"
           },
           {
             "name": "org.apache.poi:poi-scratchpad",
+            "purl": "",
             "version": "5.2.5"
           },
           {
             "name": "org.apache.tomcat.embed:tomcat-embed-el",
+            "purl": "",
             "version": "11.0.21"
           },
           {
             "name": "org.apache.xmlbeans:xmlbeans",
+            "purl": "",
             "version": "5.3.0"
           },
           {
             "name": "org.apache.xmlgraphics:batik-anim",
+            "purl": "",
             "version": "1.19"
           },
           {
             "name": "org.apache.xmlgraphics:batik-awt-util",
+            "purl": "",
             "version": "1.19"
           },
           {
             "name": "org.apache.xmlgraphics:batik-bridge",
+            "purl": "",
             "version": "1.19"
           },
           {
             "name": "org.apache.xmlgraphics:batik-constants",
+            "purl": "",
             "version": "1.19"
           },
           {
             "name": "org.apache.xmlgraphics:batik-css",
+            "purl": "",
             "version": "1.19"
           },
           {
             "name": "org.apache.xmlgraphics:batik-dom",
+            "purl": "",
             "version": "1.19"
           },
           {
             "name": "org.apache.xmlgraphics:batik-ext",
+            "purl": "",
             "version": "1.19"
           },
           {
             "name": "org.apache.xmlgraphics:batik-gvt",
+            "purl": "",
             "version": "1.19"
           },
           {
             "name": "org.apache.xmlgraphics:batik-i18n",
+            "purl": "",
             "version": "1.19"
           },
           {
             "name": "org.apache.xmlgraphics:batik-parser",
+            "purl": "",
             "version": "1.19"
           },
           {
             "name": "org.apache.xmlgraphics:batik-script",
+            "purl": "",
             "version": "1.19"
           },
           {
             "name": "org.apache.xmlgraphics:batik-shared-resources",
+            "purl": "",
             "version": "1.19"
           },
           {
             "name": "org.apache.xmlgraphics:batik-svg-dom",
+            "purl": "",
             "version": "1.19"
           },
           {
             "name": "org.apache.xmlgraphics:batik-svggen",
+            "purl": "",
             "version": "1.19"
           },
           {
             "name": "org.apache.xmlgraphics:batik-transcoder",
+            "purl": "",
             "version": "1.19"
           },
           {
             "name": "org.apache.xmlgraphics:batik-util",
+            "purl": "",
             "version": "1.19"
           },
           {
             "name": "org.apache.xmlgraphics:batik-xml",
+            "purl": "",
             "version": "1.19"
           },
           {
             "name": "org.apache.xmlgraphics:xmlgraphics-commons",
+            "purl": "",
             "version": "2.11"
           },
           {
             "name": "org.aspectj:aspectjweaver",
+            "purl": "",
             "version": "1.9.25.1"
           },
           {
             "name": "org.bouncycastle:bcpkix-jdk18on",
+            "purl": "",
             "version": "1.84"
           },
           {
             "name": "org.bouncycastle:bcprov-jdk18on",
+            "purl": "",
             "version": "1.84"
           },
           {
             "name": "org.bouncycastle:bcutil-jdk18on",
+            "purl": "",
             "version": "1.84"
           },
           {
             "name": "org.commonmark:commonmark",
+            "purl": "",
             "version": "0.28.0"
           },
           {
             "name": "org.commonmark:commonmark-ext-gfm-tables",
+            "purl": "",
             "version": "0.28.0"
           },
           {
             "name": "org.eclipse.angus:angus-activation",
+            "purl": "",
             "version": "2.0.3"
           },
           {
             "name": "org.eclipse.angus:angus-core",
+            "purl": "",
             "version": "2.0.5"
           },
           {
             "name": "org.eclipse.angus:angus-mail",
+            "purl": "",
             "version": "2.0.5"
           },
           {
             "name": "org.eclipse.angus:imap",
+            "purl": "",
             "version": "2.0.5"
           },
           {
             "name": "org.eclipse.angus:logging-mailhandler",
+            "purl": "",
             "version": "2.0.5"
           },
           {
             "name": "org.eclipse.angus:pop3",
+            "purl": "",
             "version": "2.0.5"
           },
           {
             "name": "org.eclipse.angus:smtp",
+            "purl": "",
             "version": "2.0.5"
           },
           {
             "name": "org.eclipse.jetty.compression:jetty-compression-common",
+            "purl": "",
             "version": "12.1.8"
           },
           {
             "name": "org.eclipse.jetty.compression:jetty-compression-gzip",
+            "purl": "",
             "version": "12.1.8"
           },
           {
             "name": "org.eclipse.jetty.compression:jetty-compression-server",
+            "purl": "",
             "version": "12.1.8"
           },
           {
             "name": "org.eclipse.jetty.ee11.websocket:jetty-ee11-websocket-jakarta-client",
+            "purl": "",
             "version": "12.1.8"
           },
           {
             "name": "org.eclipse.jetty.ee11.websocket:jetty-ee11-websocket-jakarta-common",
+            "purl": "",
             "version": "12.1.8"
           },
           {
             "name": "org.eclipse.jetty.ee11.websocket:jetty-ee11-websocket-jakarta-server",
+            "purl": "",
             "version": "12.1.8"
           },
           {
             "name": "org.eclipse.jetty.ee11.websocket:jetty-ee11-websocket-jetty-server",
+            "purl": "",
             "version": "12.1.8"
           },
           {
             "name": "org.eclipse.jetty.ee11.websocket:jetty-ee11-websocket-servlet",
+            "purl": "",
             "version": "12.1.8"
           },
           {
             "name": "org.eclipse.jetty.ee11:jetty-ee11-annotations",
+            "purl": "",
             "version": "12.1.8"
           },
           {
             "name": "org.eclipse.jetty.ee11:jetty-ee11-plus",
+            "purl": "",
             "version": "12.1.8"
           },
           {
             "name": "org.eclipse.jetty.ee11:jetty-ee11-servlet",
+            "purl": "",
             "version": "12.1.8"
           },
           {
             "name": "org.eclipse.jetty.ee11:jetty-ee11-webapp",
+            "purl": "",
             "version": "12.1.8"
           },
           {
             "name": "org.eclipse.jetty.ee:jetty-ee-webapp",
+            "purl": "",
             "version": "12.1.8"
           },
           {
             "name": "org.eclipse.jetty.http2:jetty-http2-common",
+            "purl": "",
             "version": "12.1.8"
           },
           {
             "name": "org.eclipse.jetty.http2:jetty-http2-hpack",
+            "purl": "",
             "version": "12.1.8"
           },
           {
             "name": "org.eclipse.jetty.http2:jetty-http2-server",
+            "purl": "",
             "version": "12.1.8"
           },
           {
             "name": "org.eclipse.jetty.websocket:jetty-websocket-core-client",
+            "purl": "",
             "version": "12.1.8"
           },
           {
             "name": "org.eclipse.jetty.websocket:jetty-websocket-core-common",
+            "purl": "",
             "version": "12.1.8"
           },
           {
             "name": "org.eclipse.jetty.websocket:jetty-websocket-core-server",
+            "purl": "",
             "version": "12.1.8"
           },
           {
             "name": "org.eclipse.jetty.websocket:jetty-websocket-jetty-api",
+            "purl": "",
             "version": "12.1.8"
           },
           {
             "name": "org.eclipse.jetty.websocket:jetty-websocket-jetty-common",
+            "purl": "",
             "version": "12.1.8"
           },
           {
             "name": "org.eclipse.jetty.websocket:jetty-websocket-jetty-server",
+            "purl": "",
             "version": "12.1.8"
           },
           {
             "name": "org.eclipse.jetty:jetty-alpn-client",
+            "purl": "",
             "version": "12.1.8"
           },
           {
             "name": "org.eclipse.jetty:jetty-alpn-java-server",
+            "purl": "",
             "version": "12.1.8"
           },
           {
             "name": "org.eclipse.jetty:jetty-alpn-server",
+            "purl": "",
             "version": "12.1.8"
           },
           {
             "name": "org.eclipse.jetty:jetty-annotations",
+            "purl": "",
             "version": "12.1.8"
           },
           {
             "name": "org.eclipse.jetty:jetty-client",
+            "purl": "",
             "version": "12.1.8"
           },
           {
             "name": "org.eclipse.jetty:jetty-http",
+            "purl": "",
             "version": "12.1.8"
           },
           {
             "name": "org.eclipse.jetty:jetty-io",
+            "purl": "",
             "version": "12.1.8"
           },
           {
             "name": "org.eclipse.jetty:jetty-plus",
+            "purl": "",
             "version": "12.1.8"
           },
           {
             "name": "org.eclipse.jetty:jetty-security",
+            "purl": "",
             "version": "12.1.8"
           },
           {
             "name": "org.eclipse.jetty:jetty-server",
+            "purl": "",
             "version": "12.1.8"
           },
           {
             "name": "org.eclipse.jetty:jetty-session",
+            "purl": "",
             "version": "12.1.8"
           },
           {
             "name": "org.eclipse.jetty:jetty-util",
+            "purl": "",
             "version": "12.1.8"
           },
           {
             "name": "org.eclipse.jetty:jetty-xml",
+            "purl": "",
             "version": "12.1.8"
           },
           {
             "name": "org.glassfish.jaxb:jaxb-core",
+            "purl": "",
             "version": "4.0.7"
           },
           {
             "name": "org.glassfish.jaxb:jaxb-runtime",
+            "purl": "",
             "version": "2.3.9"
           },
           {
             "name": "org.glassfish.jaxb:txw2",
+            "purl": "",
             "version": "2.3.9"
           },
           {
             "name": "org.hdrhistogram:HdrHistogram",
+            "purl": "",
             "version": "2.2.2"
           },
           {
             "name": "org.hibernate.validator:hibernate-validator",
+            "purl": "",
             "version": "9.0.1.Final"
           },
           {
             "name": "org.jboss.logging:jboss-logging",
+            "purl": "",
             "version": "3.6.3.Final"
           },
           {
             "name": "org.jetbrains:annotations",
+            "purl": "",
             "version": "13.0"
           },
           {
             "name": "org.json:json",
+            "purl": "",
             "version": "20231013"
           },
           {
             "name": "org.jsoup:jsoup",
+            "purl": "",
             "version": "1.15.4"
           },
           {
             "name": "org.jspecify:jspecify",
+            "purl": "",
             "version": "1.0.0"
           },
           {
             "name": "org.latencyutils:LatencyUtils",
+            "purl": "",
             "version": "2.0.3"
           },
           {
             "name": "org.locationtech.jts:jts-core",
+            "purl": "",
             "version": "1.18.1"
           },
           {
             "name": "org.mozilla:rhino",
+            "purl": "",
             "version": "1.9.1"
           },
           {
             "name": "org.ow2.asm:asm",
+            "purl": "",
             "version": "9.9.1"
           },
           {
             "name": "org.ow2.asm:asm-commons",
+            "purl": "",
             "version": "9.9.1"
           },
           {
             "name": "org.ow2.asm:asm-tree",
+            "purl": "",
             "version": "9.9.1"
           },
           {
             "name": "org.simplejavamail:core-module",
+            "purl": "",
             "version": "8.12.6"
           },
           {
             "name": "org.simplejavamail:outlook-message-parser",
+            "purl": "",
             "version": "1.14.1"
           },
           {
             "name": "org.simplejavamail:outlook-module",
+            "purl": "",
             "version": "8.12.6"
           },
           {
             "name": "org.simplejavamail:simple-java-mail",
+            "purl": "",
             "version": "8.12.6"
           },
           {
             "name": "org.slf4j:jul-to-slf4j",
+            "purl": "",
             "version": "2.0.17"
           },
           {
             "name": "org.slf4j:slf4j-api",
+            "purl": "",
             "version": "2.0.17"
           },
           {
             "name": "org.snakeyaml:snakeyaml-engine",
+            "purl": "",
             "version": "3.0.1"
           },
           {
             "name": "org.springdoc:springdoc-openapi-starter-common",
+            "purl": "",
             "version": "3.0.3"
           },
           {
             "name": "org.springdoc:springdoc-openapi-starter-webmvc-api",
+            "purl": "",
             "version": "3.0.3"
           },
           {
             "name": "org.springdoc:springdoc-openapi-starter-webmvc-ui",
+            "purl": "",
             "version": "3.0.3"
           },
           {
             "name": "org.springframework.boot:spring-boot",
+            "purl": "",
             "version": "4.0.6"
           },
           {
             "name": "org.springframework.boot:spring-boot-actuator",
+            "purl": "",
             "version": "4.0.6"
           },
           {
             "name": "org.springframework.boot:spring-boot-actuator-autoconfigure",
+            "purl": "",
             "version": "4.0.6"
           },
           {
             "name": "org.springframework.boot:spring-boot-autoconfigure",
+            "purl": "",
             "version": "4.0.6"
           },
           {
             "name": "org.springframework.boot:spring-boot-health",
+            "purl": "",
             "version": "4.0.6"
           },
           {
             "name": "org.springframework.boot:spring-boot-http-converter",
+            "purl": "",
             "version": "4.0.6"
           },
           {
             "name": "org.springframework.boot:spring-boot-jackson",
+            "purl": "",
             "version": "4.0.6"
           },
           {
             "name": "org.springframework.boot:spring-boot-jarmode-tools",
+            "purl": "",
             "version": "4.0.6"
           },
           {
             "name": "org.springframework.boot:spring-boot-jetty",
+            "purl": "",
             "version": "4.0.6"
           },
           {
             "name": "org.springframework.boot:spring-boot-micrometer-metrics",
+            "purl": "",
             "version": "4.0.6"
           },
           {
             "name": "org.springframework.boot:spring-boot-micrometer-observation",
+            "purl": "",
             "version": "4.0.6"
           },
           {
             "name": "org.springframework.boot:spring-boot-servlet",
+            "purl": "",
             "version": "4.0.6"
           },
           {
             "name": "org.springframework.boot:spring-boot-validation",
+            "purl": "",
             "version": "4.0.6"
           },
           {
             "name": "org.springframework.boot:spring-boot-web-server",
+            "purl": "",
             "version": "4.0.6"
           },
           {
             "name": "org.springframework.boot:spring-boot-webmvc",
+            "purl": "",
             "version": "4.0.6"
           },
           {
             "name": "org.springframework:spring-aop",
+            "purl": "",
             "version": "7.0.7"
           },
           {
             "name": "org.springframework:spring-beans",
+            "purl": "",
             "version": "7.0.7"
           },
           {
             "name": "org.springframework:spring-context",
+            "purl": "",
             "version": "7.0.7"
           },
           {
             "name": "org.springframework:spring-core",
+            "purl": "",
             "version": "7.0.7"
           },
           {
             "name": "org.springframework:spring-expression",
+            "purl": "",
             "version": "7.0.7"
           },
           {
             "name": "org.springframework:spring-web",
+            "purl": "",
             "version": "7.0.7"
           },
           {
             "name": "org.springframework:spring-webmvc",
+            "purl": "",
             "version": "7.0.7"
           },
           {
             "name": "org.telegram:telegrambots",
+            "purl": "",
             "version": "6.9.7.1"
           },
           {
             "name": "org.telegram:telegrambots-meta",
+            "purl": "",
             "version": "6.9.7.1"
           },
           {
             "name": "org.verapdf:core",
+            "purl": "",
             "version": "1.28.2"
           },
           {
             "name": "org.verapdf:feature-reporting",
+            "purl": "",
             "version": "1.28.2"
           },
           {
             "name": "org.verapdf:metadata-fixer",
+            "purl": "",
             "version": "1.28.2"
           },
           {
             "name": "org.verapdf:parser",
+            "purl": "",
             "version": "1.28.2"
           },
           {
             "name": "org.verapdf:pdf-model",
+            "purl": "",
             "version": "1.28.2"
           },
           {
             "name": "org.verapdf:validation-model",
+            "purl": "",
             "version": "1.28.2"
           },
           {
             "name": "org.verapdf:verapdf-xmp-core",
+            "purl": "",
             "version": "1.28.2"
           },
           {
             "name": "org.webjars:swagger-ui",
+            "purl": "",
             "version": "5.32.2"
           },
           {
             "name": "org.webjars:webjars-locator-lite",
+            "purl": "",
             "version": "1.1.3"
           },
           {
             "name": "org.yaml:snakeyaml",
+            "purl": "",
             "version": "2.5"
           },
           {
             "name": "technology.tabula:tabula",
+            "purl": "",
             "version": "1.0.5"
           },
           {
             "name": "tools.jackson.core:jackson-core",
+            "purl": "",
             "version": "3.1.2"
           },
           {
             "name": "tools.jackson.core:jackson-databind",
+            "purl": "",
             "version": "3.1.2"
           },
           {
             "name": "xml-apis:xml-apis",
+            "purl": "",
             "version": "1.4.01"
           },
           {
             "name": "xml-apis:xml-apis-ext",
+            "purl": "",
             "version": "1.3.04"
           }
         ],
@@ -1418,10 +1960,12 @@
         "python": [
           {
             "name": "example",
+            "purl": "",
             "version": "21.12"
           },
           {
             "name": "packaging",
+            "purl": "",
             "version": "26.2"
           }
         ],
@@ -1445,371 +1989,656 @@
     "pkg": {
       "app_version": "2.2.1_2",
       "arch": "amd64",
-      "generated": "2026-07-25T20:41:42Z",
+      "generated": "2026-08-01T19:36:58Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-audit-lib",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-blocklist",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-bzip2-lib",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-certctl",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-clibs",
-            "version": "15.1p1"
+            "version": "15.1p2"
           },
           {
+            "licenses": [
+              "CDDL-1.0"
+            ],
             "name": "FreeBSD-ctf-lib",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-fetch",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-kerberos-lib",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-libarchive",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-libbsdstat",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-libcasper",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-libexecinfo",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-libldns",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-libmagic",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-libucl",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-locales",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-mtree",
-            "version": "15.1"
+            "version": "15.1p2"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-ncurses-lib",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-openssl",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-openssl-lib",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-pam-lib",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-pkg-bootstrap",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-rc",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p1"
+            "version": "15.1p2"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-tcpd",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-ufs-lib",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-utilities",
-            "version": "15.1p1"
+            "version": "15.1p2"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-xz-lib",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "CDDL-1.0"
+            ],
             "name": "FreeBSD-zfs-lib",
             "version": "15.1p1"
           },
           {
+            "licenses": [
+              "Zlib"
+            ],
             "name": "FreeBSD-zlib",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "PD"
+            ],
             "name": "FreeBSD-zoneinfo",
-            "version": "15.1"
+            "version": "15.1p2"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-zstd-lib",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "LGPL21+"
+            ],
             "name": "alsa-lib",
             "version": "1.2.15.3"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "brotli",
             "version": "1.2.0,1"
           },
           {
+            "licenses": [
+              "MPL20"
+            ],
             "name": "ca_root_nss",
             "version": "3.125"
           },
           {
+            "licenses": [
+              "AMS",
+              "AREV",
+              "BITSTREAM"
+            ],
             "name": "dejavu",
             "version": "2.37_4"
           },
           {
+            "licenses": [
+              "PD"
+            ],
             "name": "encodings",
             "version": "1.1.0,1"
           },
           {
+            "licenses": [
+              "ISCL"
+            ],
             "name": "execline",
             "version": "2.9.8.1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "expat",
             "version": "2.8.2"
           },
           {
+            "licenses": [
+              "LUXI"
+            ],
             "name": "font-bh-ttf",
             "version": "1.0.4"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "font-misc-ethiopic",
             "version": "1.0.5"
           },
           {
+            "licenses": [
+              "MELTHO"
+            ],
             "name": "font-misc-meltho",
             "version": "1.0.4"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "fontconfig",
             "version": "2.17.1,1"
           },
           {
+            "licenses": [
+              "GPLv2+",
+              "FTL"
+            ],
             "name": "freetype2",
             "version": "2.14.3"
           },
           {
+            "licenses": [
+              "LGPL21+",
+              "GPLv3+"
+            ],
             "name": "gettext-runtime",
             "version": "1.0_1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "giflib",
             "version": "5.2.2"
           },
           {
+            "licenses": [
+              "LGPL20"
+            ],
             "name": "glib",
             "version": "2.86.4,2"
           },
           {
+            "licenses": [
+              "MPL20",
+              "GPLv2",
+              "LGPL21"
+            ],
             "name": "graphite2",
             "version": "1.3.15"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "harfbuzz",
             "version": "14.2.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "indexinfo",
             "version": "0.3.1_1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE",
+              "BEERWARE"
+            ],
             "name": "javavmwrapper",
             "version": "2.7.10_2"
           },
           {
+            "licenses": [
+              "GPLv2+"
+            ],
             "name": "jbigkit",
             "version": "2.1_3"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE",
+              "IJG",
+              "ZLIB"
+            ],
             "name": "jpeg-turbo",
             "version": "3.1.4.1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "jq",
             "version": "1.8.2"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "lcms2",
             "version": "2.19.1"
           },
           {
+            "licenses": [
+              "APACHE20"
+            ],
             "name": "lerc",
             "version": "4.1.0"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libICE",
             "version": "1.1.2,1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libSM",
             "version": "1.2.6,1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libX11",
             "version": "1.8.13_1,1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libXau",
             "version": "1.0.12"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libXdmcp",
             "version": "1.1.5"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libXext",
             "version": "1.3.7,1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libXfixes",
             "version": "6.0.1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libXi",
             "version": "1.8.3,1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libXrandr",
             "version": "1.5.5"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libXrender",
             "version": "0.9.12"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libXt",
             "version": "1.3.1,1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libXtst",
             "version": "1.2.5"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libdeflate",
             "version": "1.25"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libffi",
             "version": "3.6.0"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libfontenc",
             "version": "1.1.9"
           },
           {
+            "licenses": [
+              "GPLv3"
+            ],
             "name": "libiconv",
             "version": "1.18_1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE",
+              "GPLv2"
+            ],
             "name": "liblz4",
             "version": "1.10.0_2,1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libxcb",
             "version": "1.17.0"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "mkfontscale",
             "version": "1.2.4"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "mpdecimal",
             "version": "4.0.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "oniguruma",
             "version": "6.9.10"
           },
           {
+            "licenses": [
+              "GPLv2"
+            ],
             "name": "openjdk25",
             "version": "25.0.3+9.f.1"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE"
+            ],
             "name": "pcre2",
             "version": "10.47_1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "pkg",
             "version": "2.7.5"
           },
           {
+            "licenses": [
+              "Libpng"
+            ],
             "name": "png",
             "version": "1.6.58"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE",
+              "APACHE20"
+            ],
             "name": "py312-packaging",
             "version": "26.2"
           },
           {
+            "licenses": [
+              "PSFL"
+            ],
             "name": "python312",
             "version": "3.12.13_3"
           },
           {
+            "licenses": [
+              "GPLv3"
+            ],
             "name": "readline",
             "version": "8.3.3"
           },
           {
+            "licenses": [
+              "ISCL"
+            ],
             "name": "s6",
             "version": "2.14.0.1"
           },
           {
+            "licenses": [
+              "ISCL"
+            ],
             "name": "skalibs",
             "version": "2.14.5.1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "stirling-pdf",
             "version": "2.2.1_2"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE"
+            ],
             "name": "tiff",
             "version": "4.7.1_1"
           },
           {
+            "licenses": [
+              "NA"
+            ],
             "name": "xorg-fonts-truetype",
             "version": "7.7_1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "xorgproto",
             "version": "2025.1"
           },
           {
+            "licenses": [
+              "GPLv2",
+              "BSD3CLAUSE"
+            ],
             "name": "zstd",
             "version": "1.5.7_2"
           }
@@ -1818,1094 +2647,1367 @@
         "java": [
           {
             "name": "ch.qos.logback:logback-classic",
+            "purl": "",
             "version": "1.5.23"
           },
           {
             "name": "ch.qos.logback:logback-core",
+            "purl": "",
             "version": "1.5.23"
           },
           {
             "name": "com.adobe.xmp:xmpcore",
+            "purl": "",
             "version": "6.1.11"
           },
           {
             "name": "com.bucket4j:bucket4j_jdk17-core",
+            "purl": "",
             "version": "8.15.0"
           },
           {
             "name": "com.coveo:saml-client",
+            "purl": "",
             "version": "5.0.0"
           },
           {
             "name": "com.drewnoakes:metadata-extractor",
+            "purl": "",
             "version": "2.19.0"
           },
           {
             "name": "com.fasterxml.jackson.core:jackson-annotations",
+            "purl": "",
             "version": "2.19.2"
           },
           {
             "name": "com.fasterxml.jackson.core:jackson-core",
+            "purl": "",
             "version": "2.19.2"
           },
           {
             "name": "com.fasterxml.jackson.core:jackson-databind",
+            "purl": "",
             "version": "2.19.2"
           },
           {
             "name": "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml",
+            "purl": "",
             "version": "2.19.2"
           },
           {
             "name": "com.fasterxml.jackson.datatype:jackson-datatype-jdk8",
+            "purl": "",
             "version": "2.19.2"
           },
           {
             "name": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310",
+            "purl": "",
             "version": "2.19.2"
           },
           {
             "name": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-base",
+            "purl": "",
             "version": "2.19.2"
           },
           {
             "name": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-json-provider",
+            "purl": "",
             "version": "2.19.2"
           },
           {
             "name": "com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations",
+            "purl": "",
             "version": "2.19.2"
           },
           {
             "name": "com.fasterxml.jackson.module:jackson-module-parameter-names",
+            "purl": "",
             "version": "2.19.2"
           },
           {
             "name": "com.fasterxml:classmate",
+            "purl": "",
             "version": "1.7.1"
           },
           {
             "name": "com.fathzer:javaluator",
+            "purl": "",
             "version": "3.0.6"
           },
           {
             "name": "com.github.ben-manes.caffeine:caffeine",
+            "purl": "",
             "version": "3.2.2"
           },
           {
             "name": "com.github.jai-imageio:jai-imageio-core",
+            "purl": "",
             "version": "1.4.0"
           },
           {
             "name": "com.github.jai-imageio:jai-imageio-jpeg2000",
+            "purl": "",
             "version": "1.4.0"
           },
           {
             "name": "com.github.junrar:junrar",
+            "purl": "",
             "version": "7.5.7"
           },
           {
             "name": "com.github.stephenc.jcip:jcip-annotations",
+            "purl": "",
             "version": "1.0-1"
           },
           {
             "name": "com.google.code.findbugs:jsr305",
+            "purl": "",
             "version": "3.0.2"
           },
           {
             "name": "com.google.code.gson:gson",
+            "purl": "",
             "version": "2.13.1"
           },
           {
             "name": "com.google.errorprone:error_prone_annotations",
+            "purl": "",
             "version": "2.40.0"
           },
           {
             "name": "com.google.guava:failureaccess",
+            "purl": "",
             "version": "1.0.1"
           },
           {
             "name": "com.google.guava:guava",
+            "purl": "",
             "version": "31.1-jre"
           },
           {
             "name": "com.google.guava:listenablefuture",
+            "purl": "",
             "version": "9999.0-empty-to-avoid-conflict-with-guava"
           },
           {
             "name": "com.google.j2objc:j2objc-annotations",
+            "purl": "",
             "version": "1.3"
           },
           {
             "name": "com.google.zxing:core",
+            "purl": "",
             "version": "3.5.4"
           },
           {
             "name": "com.googlecode.owasp-java-html-sanitizer:java10-shim",
+            "purl": "",
             "version": "20240325.1"
           },
           {
             "name": "com.googlecode.owasp-java-html-sanitizer:java8-shim",
+            "purl": "",
             "version": "20240325.1"
           },
           {
             "name": "com.googlecode.owasp-java-html-sanitizer:owasp-java-html-sanitizer",
+            "purl": "",
             "version": "20240325.1"
           },
           {
             "name": "com.h2database:h2",
+            "purl": "",
             "version": "2.3.232"
           },
           {
             "name": "com.martiansoftware:jsap",
+            "purl": "",
             "version": "2.1"
           },
           {
             "name": "com.nimbusds:content-type",
+            "purl": "",
             "version": "2.2"
           },
           {
             "name": "com.nimbusds:lang-tag",
+            "purl": "",
             "version": "1.7"
           },
           {
             "name": "com.nimbusds:nimbus-jose-jwt",
+            "purl": "",
             "version": "9.37.4"
           },
           {
             "name": "com.nimbusds:oauth2-oidc-sdk",
+            "purl": "",
             "version": "9.43.6"
           },
           {
             "name": "com.opencsv:opencsv",
+            "purl": "",
             "version": "5.12.0"
           },
           {
             "name": "com.posthog.java:posthog",
+            "purl": "",
             "version": "1.2.0"
           },
           {
             "name": "com.sun.activation:jakarta.activation",
+            "purl": "",
             "version": "1.2.2"
           },
           {
             "name": "com.sun.istack:istack-commons-runtime",
+            "purl": "",
             "version": "3.0.12"
           },
           {
             "name": "com.sun.xml.bind:jaxb-core",
+            "purl": "",
             "version": "2.3.0.1"
           },
           {
             "name": "com.sun.xml.bind:jaxb-impl",
+            "purl": "",
             "version": "2.3.9"
           },
           {
             "name": "com.twelvemonkeys.common:common-image",
+            "purl": "",
             "version": "3.13.0"
           },
           {
             "name": "com.twelvemonkeys.common:common-io",
+            "purl": "",
             "version": "3.13.0"
           },
           {
             "name": "com.twelvemonkeys.common:common-lang",
+            "purl": "",
             "version": "3.13.0"
           },
           {
             "name": "com.twelvemonkeys.imageio:imageio-batik",
+            "purl": "",
             "version": "3.13.0"
           },
           {
             "name": "com.twelvemonkeys.imageio:imageio-bmp",
+            "purl": "",
             "version": "3.13.0"
           },
           {
             "name": "com.twelvemonkeys.imageio:imageio-core",
+            "purl": "",
             "version": "3.13.0"
           },
           {
             "name": "com.twelvemonkeys.imageio:imageio-jpeg",
+            "purl": "",
             "version": "3.13.0"
           },
           {
             "name": "com.twelvemonkeys.imageio:imageio-metadata",
+            "purl": "",
             "version": "3.13.0"
           },
           {
             "name": "com.twelvemonkeys.imageio:imageio-psd",
+            "purl": "",
             "version": "3.13.0"
           },
           {
             "name": "com.twelvemonkeys.imageio:imageio-tiff",
+            "purl": "",
             "version": "3.13.0"
           },
           {
             "name": "com.twelvemonkeys.imageio:imageio-webp",
+            "purl": "",
             "version": "3.13.0"
           },
           {
             "name": "com.unboundid.product.scim2:scim2-sdk-client",
+            "purl": "",
             "version": "4.1.0"
           },
           {
             "name": "com.unboundid.product.scim2:scim2-sdk-common",
+            "purl": "",
             "version": "4.1.0"
           },
           {
             "name": "com.vladsch.flexmark:flexmark",
+            "purl": "",
             "version": "0.64.8"
           },
           {
             "name": "com.vladsch.flexmark:flexmark-ext-emoji",
+            "purl": "",
             "version": "0.64.8"
           },
           {
             "name": "com.vladsch.flexmark:flexmark-ext-gfm-strikethrough",
+            "purl": "",
             "version": "0.64.8"
           },
           {
             "name": "com.vladsch.flexmark:flexmark-ext-ins",
+            "purl": "",
             "version": "0.64.8"
           },
           {
             "name": "com.vladsch.flexmark:flexmark-ext-superscript",
+            "purl": "",
             "version": "0.64.8"
           },
           {
             "name": "com.vladsch.flexmark:flexmark-ext-tables",
+            "purl": "",
             "version": "0.64.8"
           },
           {
             "name": "com.vladsch.flexmark:flexmark-ext-wikilink",
+            "purl": "",
             "version": "0.64.8"
           },
           {
             "name": "com.vladsch.flexmark:flexmark-html2md-converter",
+            "purl": "",
             "version": "0.64.8"
           },
           {
             "name": "com.vladsch.flexmark:flexmark-jira-converter",
+            "purl": "",
             "version": "0.64.8"
           },
           {
             "name": "com.vladsch.flexmark:flexmark-util",
+            "purl": "",
             "version": "0.64.8"
           },
           {
             "name": "com.vladsch.flexmark:flexmark-util-ast",
+            "purl": "",
             "version": "0.64.8"
           },
           {
             "name": "com.vladsch.flexmark:flexmark-util-builder",
+            "purl": "",
             "version": "0.64.8"
           },
           {
             "name": "com.vladsch.flexmark:flexmark-util-collection",
+            "purl": "",
             "version": "0.64.8"
           },
           {
             "name": "com.vladsch.flexmark:flexmark-util-data",
+            "purl": "",
             "version": "0.64.8"
           },
           {
             "name": "com.vladsch.flexmark:flexmark-util-dependency",
+            "purl": "",
             "version": "0.64.8"
           },
           {
             "name": "com.vladsch.flexmark:flexmark-util-format",
+            "purl": "",
             "version": "0.64.8"
           },
           {
             "name": "com.vladsch.flexmark:flexmark-util-html",
+            "purl": "",
             "version": "0.64.8"
           },
           {
             "name": "com.vladsch.flexmark:flexmark-util-misc",
+            "purl": "",
             "version": "0.64.8"
           },
           {
             "name": "com.vladsch.flexmark:flexmark-util-options",
+            "purl": "",
             "version": "0.64.8"
           },
           {
             "name": "com.vladsch.flexmark:flexmark-util-sequence",
+            "purl": "",
             "version": "0.64.8"
           },
           {
             "name": "com.vladsch.flexmark:flexmark-util-visitor",
+            "purl": "",
             "version": "0.64.8"
           },
           {
             "name": "com.zaxxer:HikariCP",
+            "purl": "",
             "version": "6.3.3"
           },
           {
             "name": "commons-beanutils:commons-beanutils",
+            "purl": "",
             "version": "1.11.0"
           },
           {
             "name": "commons-cli:commons-cli",
+            "purl": "",
             "version": "1.4"
           },
           {
             "name": "commons-codec:commons-codec",
+            "purl": "",
             "version": "1.18.0"
           },
           {
             "name": "commons-collections:commons-collections",
+            "purl": "",
             "version": "3.2.2"
           },
           {
             "name": "commons-io:commons-io",
+            "purl": "",
             "version": "2.21.0"
           },
           {
             "name": "io.dropwizard.metrics:metrics-core",
+            "purl": "",
             "version": "4.2.25"
           },
           {
             "name": "io.github.pixee:java-security-toolkit",
+            "purl": "",
             "version": "1.2.2"
           },
           {
             "name": "io.jsonwebtoken:jjwt-api",
+            "purl": "",
             "version": "0.13.0"
           },
           {
             "name": "io.jsonwebtoken:jjwt-impl",
+            "purl": "",
             "version": "0.13.0"
           },
           {
             "name": "io.jsonwebtoken:jjwt-jackson",
+            "purl": "",
             "version": "0.13.0"
           },
           {
             "name": "io.micrometer:micrometer-commons",
+            "purl": "",
             "version": "1.15.5"
           },
           {
             "name": "io.micrometer:micrometer-core",
+            "purl": "",
             "version": "1.16.0"
           },
           {
             "name": "io.micrometer:micrometer-jakarta9",
+            "purl": "",
             "version": "1.15.5"
           },
           {
             "name": "io.micrometer:micrometer-observation",
+            "purl": "",
             "version": "1.15.5"
           },
           {
             "name": "io.micrometer:micrometer-registry-prometheus",
+            "purl": "",
             "version": "1.15.5"
           },
           {
             "name": "io.prometheus:prometheus-metrics-config",
+            "purl": "",
             "version": "1.3.10"
           },
           {
             "name": "io.prometheus:prometheus-metrics-core",
+            "purl": "",
             "version": "1.3.10"
           },
           {
             "name": "io.prometheus:prometheus-metrics-exposition-formats",
+            "purl": "",
             "version": "1.3.10"
           },
           {
             "name": "io.prometheus:prometheus-metrics-exposition-textformats",
+            "purl": "",
             "version": "1.3.10"
           },
           {
             "name": "io.prometheus:prometheus-metrics-model",
+            "purl": "",
             "version": "1.3.10"
           },
           {
             "name": "io.prometheus:prometheus-metrics-tracer-common",
+            "purl": "",
             "version": "1.3.10"
           },
           {
             "name": "io.smallrye:jandex",
+            "purl": "",
             "version": "3.2.0"
           },
           {
             "name": "io.swagger.core.v3:swagger-annotations-jakarta",
+            "purl": "",
             "version": "2.2.41"
           },
           {
             "name": "io.swagger.core.v3:swagger-core-jakarta",
+            "purl": "",
             "version": "2.2.41"
           },
           {
             "name": "io.swagger.core.v3:swagger-models-jakarta",
+            "purl": "",
             "version": "2.2.41"
           },
           {
             "name": "jakarta.activation:jakarta.activation-api",
+            "purl": "",
             "version": "2.1.4"
           },
           {
             "name": "jakarta.annotation:jakarta.annotation-api",
+            "purl": "",
             "version": "2.1.1"
           },
           {
             "name": "jakarta.enterprise:jakarta.enterprise.cdi-api",
+            "purl": "",
             "version": "4.0.1"
           },
           {
             "name": "jakarta.enterprise:jakarta.enterprise.lang-model",
+            "purl": "",
             "version": "4.0.1"
           },
           {
             "name": "jakarta.inject:jakarta.inject-api",
+            "purl": "",
             "version": "2.0.1"
           },
           {
             "name": "jakarta.interceptor:jakarta.interceptor-api",
+            "purl": "",
             "version": "2.1.0"
           },
           {
             "name": "jakarta.mail:jakarta.mail-api",
+            "purl": "",
             "version": "2.1.5"
           },
           {
             "name": "jakarta.persistence:jakarta.persistence-api",
+            "purl": "",
             "version": "3.1.0"
           },
           {
             "name": "jakarta.servlet:jakarta.servlet-api",
+            "purl": "",
             "version": "6.0.0"
           },
           {
             "name": "jakarta.transaction:jakarta.transaction-api",
+            "purl": "",
             "version": "2.0.1"
           },
           {
             "name": "jakarta.validation:jakarta.validation-api",
+            "purl": "",
             "version": "3.0.2"
           },
           {
             "name": "jakarta.websocket:jakarta.websocket-api",
+            "purl": "",
             "version": "2.1.1"
           },
           {
             "name": "jakarta.websocket:jakarta.websocket-client-api",
+            "purl": "",
             "version": "2.1.1"
           },
           {
             "name": "jakarta.xml.bind:jakarta.xml.bind-api",
+            "purl": "",
             "version": "4.0.4"
           },
           {
             "name": "javax.activation:javax.activation-api",
+            "purl": "",
             "version": "1.2.0"
           },
           {
             "name": "javax.xml.bind:jaxb-api",
+            "purl": "",
             "version": "2.3.1"
           },
           {
             "name": "net.bytebuddy:byte-buddy",
+            "purl": "",
             "version": "1.17.8"
           },
           {
             "name": "net.java.dev.stax-utils:stax-utils",
+            "purl": "",
             "version": "20070216"
           },
           {
             "name": "net.minidev:accessors-smart",
+            "purl": "",
             "version": "2.5.2"
           },
           {
             "name": "net.minidev:json-smart",
+            "purl": "",
             "version": "2.5.2"
           },
           {
             "name": "net.shibboleth.utilities:java-support",
+            "purl": "",
             "version": "8.4.2"
           },
           {
             "name": "org.antlr:antlr4-runtime",
+            "purl": "",
             "version": "4.13.0"
           },
           {
             "name": "org.apache.commons:commons-collections4",
+            "purl": "",
             "version": "4.5.0"
           },
           {
             "name": "org.apache.commons:commons-csv",
+            "purl": "",
             "version": "1.9.0"
           },
           {
             "name": "org.apache.commons:commons-lang3",
+            "purl": "",
             "version": "3.17.0"
           },
           {
             "name": "org.apache.commons:commons-text",
+            "purl": "",
             "version": "1.13.1"
           },
           {
             "name": "org.apache.httpcomponents:httpclient",
+            "purl": "",
             "version": "4.5.14"
           },
           {
             "name": "org.apache.httpcomponents:httpcore",
+            "purl": "",
             "version": "4.4.16"
           },
           {
             "name": "org.apache.logging.log4j:log4j-api",
+            "purl": "",
             "version": "2.24.3"
           },
           {
             "name": "org.apache.logging.log4j:log4j-to-slf4j",
+            "purl": "",
             "version": "2.24.3"
           },
           {
             "name": "org.apache.pdfbox:fontbox",
+            "purl": "",
             "version": "3.0.6"
           },
           {
             "name": "org.apache.pdfbox:jbig2-imageio",
+            "purl": "",
             "version": "3.0.4"
           },
           {
             "name": "org.apache.pdfbox:pdfbox",
+            "purl": "",
             "version": "3.0.6"
           },
           {
             "name": "org.apache.pdfbox:pdfbox-io",
+            "purl": "",
             "version": "3.0.6"
           },
           {
             "name": "org.apache.pdfbox:preflight",
+            "purl": "",
             "version": "3.0.6"
           },
           {
             "name": "org.apache.pdfbox:xmpbox",
+            "purl": "",
             "version": "3.0.6"
           },
           {
             "name": "org.apache.santuario:xmlsec",
+            "purl": "",
             "version": "2.3.4"
           },
           {
             "name": "org.apache.tomcat.embed:tomcat-embed-el",
+            "purl": "",
             "version": "10.1.48"
           },
           {
             "name": "org.apache.velocity:velocity-engine-core",
+            "purl": "",
             "version": "2.3"
           },
           {
             "name": "org.apache.xmlgraphics:batik-all",
+            "purl": "",
             "version": "1.19"
           },
           {
             "name": "org.apache.xmlgraphics:xmlgraphics-commons",
+            "purl": "",
             "version": "2.11"
           },
           {
             "name": "org.aspectj:aspectjweaver",
+            "purl": "",
             "version": "1.9.24"
           },
           {
             "name": "org.attoparser:attoparser",
+            "purl": "",
             "version": "2.0.7.RELEASE"
           },
           {
             "name": "org.bouncycastle:bcpkix-jdk18on",
+            "purl": "",
             "version": "1.83"
           },
           {
             "name": "org.bouncycastle:bcprov-jdk18on",
+            "purl": "",
             "version": "1.83"
           },
           {
             "name": "org.bouncycastle:bcutil-jdk18on",
+            "purl": "",
             "version": "1.83"
           },
           {
             "name": "org.checkerframework:checker-qual",
+            "purl": "",
             "version": "3.49.5"
           },
           {
             "name": "org.commonmark:commonmark",
+            "purl": "",
             "version": "0.27.0"
           },
           {
             "name": "org.commonmark:commonmark-ext-gfm-tables",
+            "purl": "",
             "version": "0.27.0"
           },
           {
             "name": "org.cryptacular:cryptacular",
+            "purl": "",
             "version": "1.2.5"
           },
           {
             "name": "org.eclipse.angus:angus-activation",
+            "purl": "",
             "version": "2.0.3"
           },
           {
             "name": "org.eclipse.angus:angus-core",
+            "purl": "",
             "version": "2.0.5"
           },
           {
             "name": "org.eclipse.angus:angus-mail",
+            "purl": "",
             "version": "2.0.5"
           },
           {
             "name": "org.eclipse.angus:imap",
+            "purl": "",
             "version": "2.0.5"
           },
           {
             "name": "org.eclipse.angus:jakarta.mail",
+            "purl": "",
             "version": "2.0.5"
           },
           {
             "name": "org.eclipse.angus:logging-mailhandler",
+            "purl": "",
             "version": "2.0.5"
           },
           {
             "name": "org.eclipse.angus:pop3",
+            "purl": "",
             "version": "2.0.5"
           },
           {
             "name": "org.eclipse.angus:smtp",
+            "purl": "",
             "version": "2.0.5"
           },
           {
             "name": "org.eclipse.jetty.ee10.websocket:jetty-ee10-websocket-jakarta-client",
+            "purl": "",
             "version": "12.0.29"
           },
           {
             "name": "org.eclipse.jetty.ee10.websocket:jetty-ee10-websocket-jakarta-common",
+            "purl": "",
             "version": "12.0.29"
           },
           {
             "name": "org.eclipse.jetty.ee10.websocket:jetty-ee10-websocket-jakarta-server",
+            "purl": "",
             "version": "12.0.29"
           },
           {
             "name": "org.eclipse.jetty.ee10.websocket:jetty-ee10-websocket-jetty-server",
+            "purl": "",
             "version": "12.0.29"
           },
           {
             "name": "org.eclipse.jetty.ee10.websocket:jetty-ee10-websocket-servlet",
+            "purl": "",
             "version": "12.0.29"
           },
           {
             "name": "org.eclipse.jetty.ee10:jetty-ee10-annotations",
+            "purl": "",
             "version": "12.0.29"
           },
           {
             "name": "org.eclipse.jetty.ee10:jetty-ee10-plus",
+            "purl": "",
             "version": "12.0.29"
           },
           {
             "name": "org.eclipse.jetty.ee10:jetty-ee10-servlet",
+            "purl": "",
             "version": "12.0.29"
           },
           {
             "name": "org.eclipse.jetty.ee10:jetty-ee10-servlets",
+            "purl": "",
             "version": "12.0.29"
           },
           {
             "name": "org.eclipse.jetty.ee10:jetty-ee10-webapp",
+            "purl": "",
             "version": "12.0.29"
           },
           {
             "name": "org.eclipse.jetty.websocket:jetty-websocket-core-client",
+            "purl": "",
             "version": "12.0.29"
           },
           {
             "name": "org.eclipse.jetty.websocket:jetty-websocket-core-common",
+            "purl": "",
             "version": "12.0.29"
           },
           {
             "name": "org.eclipse.jetty.websocket:jetty-websocket-core-server",
+            "purl": "",
             "version": "12.0.29"
           },
           {
             "name": "org.eclipse.jetty.websocket:jetty-websocket-jetty-api",
+            "purl": "",
             "version": "12.0.29"
           },
           {
             "name": "org.eclipse.jetty.websocket:jetty-websocket-jetty-common",
+            "purl": "",
             "version": "12.0.29"
           },
           {
             "name": "org.eclipse.jetty:jetty-alpn-client",
+            "purl": "",
             "version": "12.0.29"
           },
           {
             "name": "org.eclipse.jetty:jetty-client",
+            "purl": "",
             "version": "12.0.29"
           },
           {
             "name": "org.eclipse.jetty:jetty-ee",
+            "purl": "",
             "version": "12.0.29"
           },
           {
             "name": "org.eclipse.jetty:jetty-http",
+            "purl": "",
             "version": "12.0.29"
           },
           {
             "name": "org.eclipse.jetty:jetty-io",
+            "purl": "",
             "version": "12.0.29"
           },
           {
             "name": "org.eclipse.jetty:jetty-plus",
+            "purl": "",
             "version": "12.0.29"
           },
           {
             "name": "org.eclipse.jetty:jetty-security",
+            "purl": "",
             "version": "12.0.29"
           },
           {
             "name": "org.eclipse.jetty:jetty-server",
+            "purl": "",
             "version": "12.0.29"
           },
           {
             "name": "org.eclipse.jetty:jetty-session",
+            "purl": "",
             "version": "12.0.29"
           },
           {
             "name": "org.eclipse.jetty:jetty-util",
+            "purl": "",
             "version": "12.0.29"
           },
           {
             "name": "org.eclipse.jetty:jetty-xml",
+            "purl": "",
             "version": "12.0.29"
           },
           {
             "name": "org.glassfish.jaxb:jaxb-core",
+            "purl": "",
             "version": "2.3.0.1"
           },
           {
             "name": "org.glassfish.jaxb:jaxb-runtime",
+            "purl": "",
             "version": "2.3.9"
           },
           {
             "name": "org.glassfish.jaxb:txw2",
+            "purl": "",
             "version": "2.3.0.1"
           },
           {
             "name": "org.hdrhistogram:HdrHistogram",
+            "purl": "",
             "version": "2.2.2"
           },
           {
             "name": "org.hibernate.common:hibernate-commons-annotations",
+            "purl": "",
             "version": "7.0.3.Final"
           },
           {
             "name": "org.hibernate.validator:hibernate-validator",
+            "purl": "",
             "version": "8.0.3.Final"
           },
           {
             "name": "org.hibernate:hibernate-core",
+            "purl": "",
             "version": "6.6.33.Final"
           },
           {
             "name": "org.jboss.logging:jboss-logging",
+            "purl": "",
             "version": "3.6.1.Final"
           },
           {
             "name": "org.jetbrains:annotations",
+            "purl": "",
             "version": "13.0"
           },
           {
             "name": "org.json:json",
+            "purl": "",
             "version": "20231013"
           },
           {
             "name": "org.jsoup:jsoup",
+            "purl": "",
             "version": "1.15.4"
           },
           {
             "name": "org.jspecify:jspecify",
+            "purl": "",
             "version": "1.0.0"
           },
           {
             "name": "org.latencyutils:LatencyUtils",
+            "purl": "",
             "version": "2.0.3"
           },
           {
             "name": "org.locationtech.jts:jts-core",
+            "purl": "",
             "version": "1.18.1"
           },
           {
             "name": "org.mozilla:rhino",
+            "purl": "",
             "version": "1.7.13"
           },
           {
             "name": "org.opensaml:opensaml-core",
+            "purl": "",
             "version": "4.3.2"
           },
           {
             "name": "org.opensaml:opensaml-messaging-api",
+            "purl": "",
             "version": "4.3.2"
           },
           {
             "name": "org.opensaml:opensaml-profile-api",
+            "purl": "",
             "version": "4.3.2"
           },
           {
             "name": "org.opensaml:opensaml-saml-api",
+            "purl": "",
             "version": "4.3.2"
           },
           {
             "name": "org.opensaml:opensaml-saml-impl",
+            "purl": "",
             "version": "4.3.2"
           },
           {
             "name": "org.opensaml:opensaml-security-api",
+            "purl": "",
             "version": "4.3.2"
           },
           {
             "name": "org.opensaml:opensaml-security-impl",
+            "purl": "",
             "version": "4.3.2"
           },
           {
             "name": "org.opensaml:opensaml-soap-api",
+            "purl": "",
             "version": "4.3.2"
           },
           {
             "name": "org.opensaml:opensaml-soap-impl",
+            "purl": "",
             "version": "4.3.2"
           },
           {
             "name": "org.opensaml:opensaml-storage-api",
+            "purl": "",
             "version": "4.3.2"
           },
           {
             "name": "org.opensaml:opensaml-xmlsec-api",
+            "purl": "",
             "version": "4.3.2"
           },
           {
             "name": "org.opensaml:opensaml-xmlsec-impl",
+            "purl": "",
             "version": "4.3.2"
           },
           {
             "name": "org.ow2.asm:asm",
+            "purl": "",
             "version": "9.9"
           },
           {
             "name": "org.ow2.asm:asm-commons",
+            "purl": "",
             "version": "9.9"
           },
           {
             "name": "org.ow2.asm:asm-tree",
+            "purl": "",
             "version": "9.9"
           },
           {
             "name": "org.postgresql:postgresql",
+            "purl": "",
             "version": "42.7.8"
           },
           {
             "name": "org.slf4j:jul-to-slf4j",
+            "purl": "",
             "version": "2.0.17"
           },
           {
             "name": "org.slf4j:slf4j-api",
+            "purl": "",
             "version": "2.0.17"
           },
           {
             "name": "org.snakeyaml:snakeyaml-engine",
+            "purl": "",
             "version": "2.10"
           },
           {
             "name": "org.springdoc:springdoc-openapi-starter-common",
+            "purl": "",
             "version": "2.8.14"
           },
           {
             "name": "org.springdoc:springdoc-openapi-starter-webmvc-api",
+            "purl": "",
             "version": "2.8.14"
           },
           {
             "name": "org.springdoc:springdoc-openapi-starter-webmvc-ui",
+            "purl": "",
             "version": "2.8.14"
           },
           {
             "name": "org.springframework.boot:spring-boot",
+            "purl": "",
             "version": "3.5.7"
           },
           {
             "name": "org.springframework.boot:spring-boot-actuator",
+            "purl": "",
             "version": "3.5.7"
           },
           {
             "name": "org.springframework.boot:spring-boot-actuator-autoconfigure",
+            "purl": "",
             "version": "3.5.7"
           },
           {
             "name": "org.springframework.boot:spring-boot-autoconfigure",
+            "purl": "",
             "version": "3.5.7"
           },
           {
             "name": "org.springframework.boot:spring-boot-jarmode-tools",
+            "purl": "",
             "version": "3.5.7"
           },
           {
             "name": "org.springframework.data:spring-data-commons",
+            "purl": "",
             "version": "3.5.5"
           },
           {
             "name": "org.springframework.data:spring-data-jpa",
+            "purl": "",
             "version": "3.5.5"
           },
           {
             "name": "org.springframework.security:spring-security-config",
+            "purl": "",
             "version": "6.5.6"
           },
           {
             "name": "org.springframework.security:spring-security-core",
+            "purl": "",
             "version": "6.5.6"
           },
           {
             "name": "org.springframework.security:spring-security-crypto",
+            "purl": "",
             "version": "6.5.6"
           },
           {
             "name": "org.springframework.security:spring-security-oauth2-client",
+            "purl": "",
             "version": "6.5.6"
           },
           {
             "name": "org.springframework.security:spring-security-oauth2-core",
+            "purl": "",
             "version": "6.5.6"
           },
           {
             "name": "org.springframework.security:spring-security-oauth2-jose",
+            "purl": "",
             "version": "6.5.6"
           },
           {
             "name": "org.springframework.security:spring-security-saml2-service-provider",
+            "purl": "",
             "version": "6.5.6"
           },
           {
             "name": "org.springframework.security:spring-security-web",
+            "purl": "",
             "version": "6.5.6"
           },
           {
             "name": "org.springframework.session:spring-session-core",
+            "purl": "",
             "version": "3.5.3"
           },
           {
             "name": "org.springframework:spring-aop",
+            "purl": "",
             "version": "6.2.12"
           },
           {
             "name": "org.springframework:spring-aspects",
+            "purl": "",
             "version": "6.2.12"
           },
           {
             "name": "org.springframework:spring-beans",
+            "purl": "",
             "version": "6.2.12"
           },
           {
             "name": "org.springframework:spring-context",
+            "purl": "",
             "version": "6.2.12"
           },
           {
             "name": "org.springframework:spring-context-support",
+            "purl": "",
             "version": "6.2.12"
           },
           {
             "name": "org.springframework:spring-core",
+            "purl": "",
             "version": "6.2.12"
           },
           {
             "name": "org.springframework:spring-expression",
+            "purl": "",
             "version": "6.2.12"
           },
           {
             "name": "org.springframework:spring-jcl",
+            "purl": "",
             "version": "6.2.12"
           },
           {
             "name": "org.springframework:spring-jdbc",
+            "purl": "",
             "version": "6.2.12"
           },
           {
             "name": "org.springframework:spring-orm",
+            "purl": "",
             "version": "6.2.12"
           },
           {
             "name": "org.springframework:spring-tx",
+            "purl": "",
             "version": "6.2.12"
           },
           {
             "name": "org.springframework:spring-web",
+            "purl": "",
             "version": "6.2.12"
           },
           {
             "name": "org.springframework:spring-webmvc",
+            "purl": "",
             "version": "6.2.12"
           },
           {
             "name": "org.thymeleaf.extras:thymeleaf-extras-springsecurity5",
+            "purl": "",
             "version": "3.1.3.RELEASE"
           },
           {
             "name": "org.thymeleaf:thymeleaf",
+            "purl": "",
             "version": "3.1.3.RELEASE"
           },
           {
             "name": "org.thymeleaf:thymeleaf-spring5",
+            "purl": "",
             "version": "3.1.3.RELEASE"
           },
           {
             "name": "org.unbescape:unbescape",
+            "purl": "",
             "version": "1.1.6.RELEASE"
           },
           {
             "name": "org.verapdf:core",
+            "purl": "",
             "version": "1.28.2"
           },
           {
             "name": "org.verapdf:feature-reporting",
+            "purl": "",
             "version": "1.28.2"
           },
           {
             "name": "org.verapdf:metadata-fixer",
+            "purl": "",
             "version": "1.28.2"
           },
           {
             "name": "org.verapdf:parser",
+            "purl": "",
             "version": "1.28.2"
           },
           {
             "name": "org.verapdf:pdf-model",
+            "purl": "",
             "version": "1.28.2"
           },
           {
             "name": "org.verapdf:validation-model",
+            "purl": "",
             "version": "1.28.2"
           },
           {
             "name": "org.verapdf:verapdf-xmp-core",
+            "purl": "",
             "version": "1.28.2"
           },
           {
             "name": "org.webjars:swagger-ui",
+            "purl": "",
             "version": "5.30.1"
           },
           {
             "name": "org.webjars:webjars-locator-lite",
+            "purl": "",
             "version": "1.1.2"
           },
           {
             "name": "org.yaml:snakeyaml",
+            "purl": "",
             "version": "2.4"
           },
           {
             "name": "technology.tabula:tabula",
+            "purl": "",
             "version": "1.0.5"
           },
           {
             "name": "xml-apis:xml-apis",
+            "purl": "",
             "version": "1.4.01"
           },
           {
             "name": "xml-apis:xml-apis-ext",
+            "purl": "",
             "version": "1.3.04"
           }
         ],
@@ -2914,10 +4016,12 @@
         "python": [
           {
             "name": "example",
+            "purl": "",
             "version": "21.12"
           },
           {
             "name": "packaging",
+            "purl": "",
             "version": "26.2"
           }
         ],
@@ -2941,363 +4045,656 @@
     "pkg-latest": {
       "app_version": "2.2.1_2",
       "arch": "amd64",
-      "generated": "2026-07-25T00:08:51Z",
+      "generated": "2026-08-01T19:36:38Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-audit-lib",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-blocklist",
-            "version": "15.0p3"
+            "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-bzip2-lib",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-certctl",
-            "version": "15.0p10"
+            "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-clibs",
-            "version": "15.0p11"
+            "version": "15.1p2"
           },
           {
+            "licenses": [
+              "CDDL-1.0"
+            ],
             "name": "FreeBSD-ctf-lib",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-fetch",
-            "version": "15.0p10"
+            "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-kerberos-lib",
-            "version": "15.0p10"
+            "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-libarchive",
-            "version": "15.0p10"
+            "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-libbsdstat",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-libcasper",
-            "version": "15.0p9"
+            "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-libexecinfo",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-libldns",
-            "version": "15.0p10"
+            "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-libmagic",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-libucl",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-locales",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-mtree",
-            "version": "15.0"
+            "version": "15.1p2"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-ncurses-lib",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-openssl",
-            "version": "15.0p10"
+            "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-openssl-lib",
-            "version": "15.0p10"
+            "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-pam-lib",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-pkg-bootstrap",
-            "version": "15.0p10"
+            "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-rc",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-runtime",
-            "version": "15.0p11"
+            "version": "15.1p2"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-tcpd",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-ufs-lib",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-utilities",
-            "version": "15.0p11"
+            "version": "15.1p2"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-xz-lib",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
+            "licenses": [
+              "CDDL-1.0"
+            ],
             "name": "FreeBSD-zfs-lib",
-            "version": "15.0p11"
+            "version": "15.1p1"
           },
           {
+            "licenses": [
+              "Zlib"
+            ],
             "name": "FreeBSD-zlib",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
+            "licenses": [
+              "PD"
+            ],
             "name": "FreeBSD-zoneinfo",
-            "version": "15.0p7"
+            "version": "15.1p2"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-zstd-lib",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "LGPL21+"
+            ],
             "name": "alsa-lib",
-            "version": "1.2.15.3"
+            "version": "1.2.16.1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "brotli",
             "version": "1.2.0,1"
           },
           {
+            "licenses": [
+              "MPL20"
+            ],
             "name": "ca_root_nss",
             "version": "3.125"
           },
           {
+            "licenses": [
+              "AMS",
+              "AREV",
+              "BITSTREAM"
+            ],
             "name": "dejavu",
             "version": "2.37_4"
           },
           {
+            "licenses": [
+              "PD"
+            ],
             "name": "encodings",
             "version": "1.1.0,1"
           },
           {
+            "licenses": [
+              "ISCL"
+            ],
             "name": "execline",
             "version": "2.9.8.1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "expat",
             "version": "2.8.2"
           },
           {
+            "licenses": [
+              "LUXI"
+            ],
             "name": "font-bh-ttf",
             "version": "1.0.4"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "font-misc-ethiopic",
             "version": "1.0.5"
           },
           {
+            "licenses": [
+              "MELTHO"
+            ],
             "name": "font-misc-meltho",
             "version": "1.0.4"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "fontconfig",
             "version": "2.17.1,1"
           },
           {
+            "licenses": [
+              "GPLv2+",
+              "FTL"
+            ],
             "name": "freetype2",
             "version": "2.14.3"
           },
           {
+            "licenses": [
+              "LGPL21+",
+              "GPLv3+"
+            ],
             "name": "gettext-runtime",
             "version": "1.0_1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "giflib",
-            "version": "5.2.2"
+            "version": "6.1.3"
           },
           {
+            "licenses": [
+              "LGPL20"
+            ],
             "name": "glib",
             "version": "2.86.4,2"
           },
           {
+            "licenses": [
+              "MPL20",
+              "GPLv2",
+              "LGPL21"
+            ],
             "name": "graphite2",
             "version": "1.3.15"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "harfbuzz",
             "version": "14.2.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "indexinfo",
             "version": "0.3.1_1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE",
+              "BEERWARE"
+            ],
             "name": "javavmwrapper",
             "version": "2.7.10_2"
           },
           {
+            "licenses": [
+              "GPLv2+"
+            ],
             "name": "jbigkit",
             "version": "2.1_3"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE",
+              "IJG",
+              "ZLIB"
+            ],
             "name": "jpeg-turbo",
             "version": "3.1.4.1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "jq",
             "version": "1.8.2"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "lcms2",
             "version": "2.19.1"
           },
           {
+            "licenses": [
+              "APACHE20"
+            ],
             "name": "lerc",
             "version": "4.1.1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libICE",
             "version": "1.1.2,1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libSM",
             "version": "1.2.6,1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libX11",
             "version": "1.8.13_1,1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libXau",
             "version": "1.0.12"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libXdmcp",
             "version": "1.1.5"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libXext",
             "version": "1.3.7,1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libXfixes",
             "version": "6.0.2"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libXi",
             "version": "1.8.3,1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libXrandr",
             "version": "1.5.5"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libXrender",
             "version": "0.9.12"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libXt",
             "version": "1.3.1,1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libXtst",
             "version": "1.2.5"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libdeflate",
             "version": "1.25"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libffi",
             "version": "3.7.1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libfontenc",
             "version": "1.1.9"
           },
           {
+            "licenses": [
+              "GPLv3"
+            ],
             "name": "libiconv",
             "version": "1.18_1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE",
+              "GPLv2"
+            ],
             "name": "liblz4",
             "version": "1.10.0_2,1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libxcb",
             "version": "1.17.0"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "mkfontscale",
             "version": "1.2.4"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "mpdecimal",
             "version": "4.0.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "oniguruma",
             "version": "6.9.10"
           },
           {
+            "licenses": [
+              "GPLv2"
+            ],
             "name": "openjdk25",
             "version": "25.0.3+9.f.1"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE"
+            ],
             "name": "pcre2",
             "version": "10.47_1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "pkg",
-            "version": "2.8.0_1"
+            "version": "2.8.1_1"
           },
           {
+            "licenses": [
+              "Libpng"
+            ],
             "name": "png",
             "version": "1.6.58"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE",
+              "APACHE20"
+            ],
             "name": "py312-packaging",
             "version": "26.2"
           },
           {
+            "licenses": [
+              "PSFL"
+            ],
             "name": "python312",
             "version": "3.12.13_3"
           },
           {
+            "licenses": [
+              "GPLv3"
+            ],
             "name": "readline",
             "version": "8.3.3"
           },
           {
+            "licenses": [
+              "ISCL"
+            ],
             "name": "s6",
             "version": "2.14.0.1"
           },
           {
+            "licenses": [
+              "ISCL"
+            ],
             "name": "skalibs",
             "version": "2.14.5.1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "stirling-pdf",
             "version": "2.2.1_2"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE"
+            ],
             "name": "tiff",
             "version": "4.7.2"
           },
           {
+            "licenses": [
+              "NA"
+            ],
             "name": "xorg-fonts-truetype",
             "version": "7.7_1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "xorgproto",
             "version": "2025.1"
           },
           {
+            "licenses": [
+              "GPLv2",
+              "BSD3CLAUSE"
+            ],
             "name": "zstd",
             "version": "1.5.7_2"
           }
@@ -3306,1094 +4703,1367 @@
         "java": [
           {
             "name": "ch.qos.logback:logback-classic",
+            "purl": "",
             "version": "1.5.23"
           },
           {
             "name": "ch.qos.logback:logback-core",
+            "purl": "",
             "version": "1.5.23"
           },
           {
             "name": "com.adobe.xmp:xmpcore",
+            "purl": "",
             "version": "6.1.11"
           },
           {
             "name": "com.bucket4j:bucket4j_jdk17-core",
+            "purl": "",
             "version": "8.15.0"
           },
           {
             "name": "com.coveo:saml-client",
+            "purl": "",
             "version": "5.0.0"
           },
           {
             "name": "com.drewnoakes:metadata-extractor",
+            "purl": "",
             "version": "2.19.0"
           },
           {
             "name": "com.fasterxml.jackson.core:jackson-annotations",
+            "purl": "",
             "version": "2.19.2"
           },
           {
             "name": "com.fasterxml.jackson.core:jackson-core",
+            "purl": "",
             "version": "2.19.2"
           },
           {
             "name": "com.fasterxml.jackson.core:jackson-databind",
+            "purl": "",
             "version": "2.19.2"
           },
           {
             "name": "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml",
+            "purl": "",
             "version": "2.19.2"
           },
           {
             "name": "com.fasterxml.jackson.datatype:jackson-datatype-jdk8",
+            "purl": "",
             "version": "2.19.2"
           },
           {
             "name": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310",
+            "purl": "",
             "version": "2.19.2"
           },
           {
             "name": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-base",
+            "purl": "",
             "version": "2.19.2"
           },
           {
             "name": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-json-provider",
+            "purl": "",
             "version": "2.19.2"
           },
           {
             "name": "com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations",
+            "purl": "",
             "version": "2.19.2"
           },
           {
             "name": "com.fasterxml.jackson.module:jackson-module-parameter-names",
+            "purl": "",
             "version": "2.19.2"
           },
           {
             "name": "com.fasterxml:classmate",
+            "purl": "",
             "version": "1.7.1"
           },
           {
             "name": "com.fathzer:javaluator",
+            "purl": "",
             "version": "3.0.6"
           },
           {
             "name": "com.github.ben-manes.caffeine:caffeine",
+            "purl": "",
             "version": "3.2.2"
           },
           {
             "name": "com.github.jai-imageio:jai-imageio-core",
+            "purl": "",
             "version": "1.4.0"
           },
           {
             "name": "com.github.jai-imageio:jai-imageio-jpeg2000",
+            "purl": "",
             "version": "1.4.0"
           },
           {
             "name": "com.github.junrar:junrar",
+            "purl": "",
             "version": "7.5.7"
           },
           {
             "name": "com.github.stephenc.jcip:jcip-annotations",
+            "purl": "",
             "version": "1.0-1"
           },
           {
             "name": "com.google.code.findbugs:jsr305",
+            "purl": "",
             "version": "3.0.2"
           },
           {
             "name": "com.google.code.gson:gson",
+            "purl": "",
             "version": "2.13.1"
           },
           {
             "name": "com.google.errorprone:error_prone_annotations",
+            "purl": "",
             "version": "2.40.0"
           },
           {
             "name": "com.google.guava:failureaccess",
+            "purl": "",
             "version": "1.0.1"
           },
           {
             "name": "com.google.guava:guava",
+            "purl": "",
             "version": "31.1-jre"
           },
           {
             "name": "com.google.guava:listenablefuture",
+            "purl": "",
             "version": "9999.0-empty-to-avoid-conflict-with-guava"
           },
           {
             "name": "com.google.j2objc:j2objc-annotations",
+            "purl": "",
             "version": "1.3"
           },
           {
             "name": "com.google.zxing:core",
+            "purl": "",
             "version": "3.5.4"
           },
           {
             "name": "com.googlecode.owasp-java-html-sanitizer:java10-shim",
+            "purl": "",
             "version": "20240325.1"
           },
           {
             "name": "com.googlecode.owasp-java-html-sanitizer:java8-shim",
+            "purl": "",
             "version": "20240325.1"
           },
           {
             "name": "com.googlecode.owasp-java-html-sanitizer:owasp-java-html-sanitizer",
+            "purl": "",
             "version": "20240325.1"
           },
           {
             "name": "com.h2database:h2",
+            "purl": "",
             "version": "2.3.232"
           },
           {
             "name": "com.martiansoftware:jsap",
+            "purl": "",
             "version": "2.1"
           },
           {
             "name": "com.nimbusds:content-type",
+            "purl": "",
             "version": "2.2"
           },
           {
             "name": "com.nimbusds:lang-tag",
+            "purl": "",
             "version": "1.7"
           },
           {
             "name": "com.nimbusds:nimbus-jose-jwt",
+            "purl": "",
             "version": "9.37.4"
           },
           {
             "name": "com.nimbusds:oauth2-oidc-sdk",
+            "purl": "",
             "version": "9.43.6"
           },
           {
             "name": "com.opencsv:opencsv",
+            "purl": "",
             "version": "5.12.0"
           },
           {
             "name": "com.posthog.java:posthog",
+            "purl": "",
             "version": "1.2.0"
           },
           {
             "name": "com.sun.activation:jakarta.activation",
+            "purl": "",
             "version": "1.2.2"
           },
           {
             "name": "com.sun.istack:istack-commons-runtime",
+            "purl": "",
             "version": "3.0.12"
           },
           {
             "name": "com.sun.xml.bind:jaxb-core",
+            "purl": "",
             "version": "2.3.0.1"
           },
           {
             "name": "com.sun.xml.bind:jaxb-impl",
+            "purl": "",
             "version": "2.3.9"
           },
           {
             "name": "com.twelvemonkeys.common:common-image",
+            "purl": "",
             "version": "3.13.0"
           },
           {
             "name": "com.twelvemonkeys.common:common-io",
+            "purl": "",
             "version": "3.13.0"
           },
           {
             "name": "com.twelvemonkeys.common:common-lang",
+            "purl": "",
             "version": "3.13.0"
           },
           {
             "name": "com.twelvemonkeys.imageio:imageio-batik",
+            "purl": "",
             "version": "3.13.0"
           },
           {
             "name": "com.twelvemonkeys.imageio:imageio-bmp",
+            "purl": "",
             "version": "3.13.0"
           },
           {
             "name": "com.twelvemonkeys.imageio:imageio-core",
+            "purl": "",
             "version": "3.13.0"
           },
           {
             "name": "com.twelvemonkeys.imageio:imageio-jpeg",
+            "purl": "",
             "version": "3.13.0"
           },
           {
             "name": "com.twelvemonkeys.imageio:imageio-metadata",
+            "purl": "",
             "version": "3.13.0"
           },
           {
             "name": "com.twelvemonkeys.imageio:imageio-psd",
+            "purl": "",
             "version": "3.13.0"
           },
           {
             "name": "com.twelvemonkeys.imageio:imageio-tiff",
+            "purl": "",
             "version": "3.13.0"
           },
           {
             "name": "com.twelvemonkeys.imageio:imageio-webp",
+            "purl": "",
             "version": "3.13.0"
           },
           {
             "name": "com.unboundid.product.scim2:scim2-sdk-client",
+            "purl": "",
             "version": "4.1.0"
           },
           {
             "name": "com.unboundid.product.scim2:scim2-sdk-common",
+            "purl": "",
             "version": "4.1.0"
           },
           {
             "name": "com.vladsch.flexmark:flexmark",
+            "purl": "",
             "version": "0.64.8"
           },
           {
             "name": "com.vladsch.flexmark:flexmark-ext-emoji",
+            "purl": "",
             "version": "0.64.8"
           },
           {
             "name": "com.vladsch.flexmark:flexmark-ext-gfm-strikethrough",
+            "purl": "",
             "version": "0.64.8"
           },
           {
             "name": "com.vladsch.flexmark:flexmark-ext-ins",
+            "purl": "",
             "version": "0.64.8"
           },
           {
             "name": "com.vladsch.flexmark:flexmark-ext-superscript",
+            "purl": "",
             "version": "0.64.8"
           },
           {
             "name": "com.vladsch.flexmark:flexmark-ext-tables",
+            "purl": "",
             "version": "0.64.8"
           },
           {
             "name": "com.vladsch.flexmark:flexmark-ext-wikilink",
+            "purl": "",
             "version": "0.64.8"
           },
           {
             "name": "com.vladsch.flexmark:flexmark-html2md-converter",
+            "purl": "",
             "version": "0.64.8"
           },
           {
             "name": "com.vladsch.flexmark:flexmark-jira-converter",
+            "purl": "",
             "version": "0.64.8"
           },
           {
             "name": "com.vladsch.flexmark:flexmark-util",
+            "purl": "",
             "version": "0.64.8"
           },
           {
             "name": "com.vladsch.flexmark:flexmark-util-ast",
+            "purl": "",
             "version": "0.64.8"
           },
           {
             "name": "com.vladsch.flexmark:flexmark-util-builder",
+            "purl": "",
             "version": "0.64.8"
           },
           {
             "name": "com.vladsch.flexmark:flexmark-util-collection",
+            "purl": "",
             "version": "0.64.8"
           },
           {
             "name": "com.vladsch.flexmark:flexmark-util-data",
+            "purl": "",
             "version": "0.64.8"
           },
           {
             "name": "com.vladsch.flexmark:flexmark-util-dependency",
+            "purl": "",
             "version": "0.64.8"
           },
           {
             "name": "com.vladsch.flexmark:flexmark-util-format",
+            "purl": "",
             "version": "0.64.8"
           },
           {
             "name": "com.vladsch.flexmark:flexmark-util-html",
+            "purl": "",
             "version": "0.64.8"
           },
           {
             "name": "com.vladsch.flexmark:flexmark-util-misc",
+            "purl": "",
             "version": "0.64.8"
           },
           {
             "name": "com.vladsch.flexmark:flexmark-util-options",
+            "purl": "",
             "version": "0.64.8"
           },
           {
             "name": "com.vladsch.flexmark:flexmark-util-sequence",
+            "purl": "",
             "version": "0.64.8"
           },
           {
             "name": "com.vladsch.flexmark:flexmark-util-visitor",
+            "purl": "",
             "version": "0.64.8"
           },
           {
             "name": "com.zaxxer:HikariCP",
+            "purl": "",
             "version": "6.3.3"
           },
           {
             "name": "commons-beanutils:commons-beanutils",
+            "purl": "",
             "version": "1.11.0"
           },
           {
             "name": "commons-cli:commons-cli",
+            "purl": "",
             "version": "1.4"
           },
           {
             "name": "commons-codec:commons-codec",
+            "purl": "",
             "version": "1.18.0"
           },
           {
             "name": "commons-collections:commons-collections",
+            "purl": "",
             "version": "3.2.2"
           },
           {
             "name": "commons-io:commons-io",
+            "purl": "",
             "version": "2.21.0"
           },
           {
             "name": "io.dropwizard.metrics:metrics-core",
+            "purl": "",
             "version": "4.2.25"
           },
           {
             "name": "io.github.pixee:java-security-toolkit",
+            "purl": "",
             "version": "1.2.2"
           },
           {
             "name": "io.jsonwebtoken:jjwt-api",
+            "purl": "",
             "version": "0.13.0"
           },
           {
             "name": "io.jsonwebtoken:jjwt-impl",
+            "purl": "",
             "version": "0.13.0"
           },
           {
             "name": "io.jsonwebtoken:jjwt-jackson",
+            "purl": "",
             "version": "0.13.0"
           },
           {
             "name": "io.micrometer:micrometer-commons",
+            "purl": "",
             "version": "1.15.5"
           },
           {
             "name": "io.micrometer:micrometer-core",
+            "purl": "",
             "version": "1.16.0"
           },
           {
             "name": "io.micrometer:micrometer-jakarta9",
+            "purl": "",
             "version": "1.15.5"
           },
           {
             "name": "io.micrometer:micrometer-observation",
+            "purl": "",
             "version": "1.15.5"
           },
           {
             "name": "io.micrometer:micrometer-registry-prometheus",
+            "purl": "",
             "version": "1.15.5"
           },
           {
             "name": "io.prometheus:prometheus-metrics-config",
+            "purl": "",
             "version": "1.3.10"
           },
           {
             "name": "io.prometheus:prometheus-metrics-core",
+            "purl": "",
             "version": "1.3.10"
           },
           {
             "name": "io.prometheus:prometheus-metrics-exposition-formats",
+            "purl": "",
             "version": "1.3.10"
           },
           {
             "name": "io.prometheus:prometheus-metrics-exposition-textformats",
+            "purl": "",
             "version": "1.3.10"
           },
           {
             "name": "io.prometheus:prometheus-metrics-model",
+            "purl": "",
             "version": "1.3.10"
           },
           {
             "name": "io.prometheus:prometheus-metrics-tracer-common",
+            "purl": "",
             "version": "1.3.10"
           },
           {
             "name": "io.smallrye:jandex",
+            "purl": "",
             "version": "3.2.0"
           },
           {
             "name": "io.swagger.core.v3:swagger-annotations-jakarta",
+            "purl": "",
             "version": "2.2.41"
           },
           {
             "name": "io.swagger.core.v3:swagger-core-jakarta",
+            "purl": "",
             "version": "2.2.41"
           },
           {
             "name": "io.swagger.core.v3:swagger-models-jakarta",
+            "purl": "",
             "version": "2.2.41"
           },
           {
             "name": "jakarta.activation:jakarta.activation-api",
+            "purl": "",
             "version": "2.1.4"
           },
           {
             "name": "jakarta.annotation:jakarta.annotation-api",
+            "purl": "",
             "version": "2.1.1"
           },
           {
             "name": "jakarta.enterprise:jakarta.enterprise.cdi-api",
+            "purl": "",
             "version": "4.0.1"
           },
           {
             "name": "jakarta.enterprise:jakarta.enterprise.lang-model",
+            "purl": "",
             "version": "4.0.1"
           },
           {
             "name": "jakarta.inject:jakarta.inject-api",
+            "purl": "",
             "version": "2.0.1"
           },
           {
             "name": "jakarta.interceptor:jakarta.interceptor-api",
+            "purl": "",
             "version": "2.1.0"
           },
           {
             "name": "jakarta.mail:jakarta.mail-api",
+            "purl": "",
             "version": "2.1.5"
           },
           {
             "name": "jakarta.persistence:jakarta.persistence-api",
+            "purl": "",
             "version": "3.1.0"
           },
           {
             "name": "jakarta.servlet:jakarta.servlet-api",
+            "purl": "",
             "version": "6.0.0"
           },
           {
             "name": "jakarta.transaction:jakarta.transaction-api",
+            "purl": "",
             "version": "2.0.1"
           },
           {
             "name": "jakarta.validation:jakarta.validation-api",
+            "purl": "",
             "version": "3.0.2"
           },
           {
             "name": "jakarta.websocket:jakarta.websocket-api",
+            "purl": "",
             "version": "2.1.1"
           },
           {
             "name": "jakarta.websocket:jakarta.websocket-client-api",
+            "purl": "",
             "version": "2.1.1"
           },
           {
             "name": "jakarta.xml.bind:jakarta.xml.bind-api",
+            "purl": "",
             "version": "4.0.4"
           },
           {
             "name": "javax.activation:javax.activation-api",
+            "purl": "",
             "version": "1.2.0"
           },
           {
             "name": "javax.xml.bind:jaxb-api",
+            "purl": "",
             "version": "2.3.1"
           },
           {
             "name": "net.bytebuddy:byte-buddy",
+            "purl": "",
             "version": "1.17.8"
           },
           {
             "name": "net.java.dev.stax-utils:stax-utils",
+            "purl": "",
             "version": "20070216"
           },
           {
             "name": "net.minidev:accessors-smart",
+            "purl": "",
             "version": "2.5.2"
           },
           {
             "name": "net.minidev:json-smart",
+            "purl": "",
             "version": "2.5.2"
           },
           {
             "name": "net.shibboleth.utilities:java-support",
+            "purl": "",
             "version": "8.4.2"
           },
           {
             "name": "org.antlr:antlr4-runtime",
+            "purl": "",
             "version": "4.13.0"
           },
           {
             "name": "org.apache.commons:commons-collections4",
+            "purl": "",
             "version": "4.5.0"
           },
           {
             "name": "org.apache.commons:commons-csv",
+            "purl": "",
             "version": "1.9.0"
           },
           {
             "name": "org.apache.commons:commons-lang3",
+            "purl": "",
             "version": "3.17.0"
           },
           {
             "name": "org.apache.commons:commons-text",
+            "purl": "",
             "version": "1.13.1"
           },
           {
             "name": "org.apache.httpcomponents:httpclient",
+            "purl": "",
             "version": "4.5.14"
           },
           {
             "name": "org.apache.httpcomponents:httpcore",
+            "purl": "",
             "version": "4.4.16"
           },
           {
             "name": "org.apache.logging.log4j:log4j-api",
+            "purl": "",
             "version": "2.24.3"
           },
           {
             "name": "org.apache.logging.log4j:log4j-to-slf4j",
+            "purl": "",
             "version": "2.24.3"
           },
           {
             "name": "org.apache.pdfbox:fontbox",
+            "purl": "",
             "version": "3.0.6"
           },
           {
             "name": "org.apache.pdfbox:jbig2-imageio",
+            "purl": "",
             "version": "3.0.4"
           },
           {
             "name": "org.apache.pdfbox:pdfbox",
+            "purl": "",
             "version": "3.0.6"
           },
           {
             "name": "org.apache.pdfbox:pdfbox-io",
+            "purl": "",
             "version": "3.0.6"
           },
           {
             "name": "org.apache.pdfbox:preflight",
+            "purl": "",
             "version": "3.0.6"
           },
           {
             "name": "org.apache.pdfbox:xmpbox",
+            "purl": "",
             "version": "3.0.6"
           },
           {
             "name": "org.apache.santuario:xmlsec",
+            "purl": "",
             "version": "2.3.4"
           },
           {
             "name": "org.apache.tomcat.embed:tomcat-embed-el",
+            "purl": "",
             "version": "10.1.48"
           },
           {
             "name": "org.apache.velocity:velocity-engine-core",
+            "purl": "",
             "version": "2.3"
           },
           {
             "name": "org.apache.xmlgraphics:batik-all",
+            "purl": "",
             "version": "1.19"
           },
           {
             "name": "org.apache.xmlgraphics:xmlgraphics-commons",
+            "purl": "",
             "version": "2.11"
           },
           {
             "name": "org.aspectj:aspectjweaver",
+            "purl": "",
             "version": "1.9.24"
           },
           {
             "name": "org.attoparser:attoparser",
+            "purl": "",
             "version": "2.0.7.RELEASE"
           },
           {
             "name": "org.bouncycastle:bcpkix-jdk18on",
+            "purl": "",
             "version": "1.83"
           },
           {
             "name": "org.bouncycastle:bcprov-jdk18on",
+            "purl": "",
             "version": "1.83"
           },
           {
             "name": "org.bouncycastle:bcutil-jdk18on",
+            "purl": "",
             "version": "1.83"
           },
           {
             "name": "org.checkerframework:checker-qual",
+            "purl": "",
             "version": "3.49.5"
           },
           {
             "name": "org.commonmark:commonmark",
+            "purl": "",
             "version": "0.27.0"
           },
           {
             "name": "org.commonmark:commonmark-ext-gfm-tables",
+            "purl": "",
             "version": "0.27.0"
           },
           {
             "name": "org.cryptacular:cryptacular",
+            "purl": "",
             "version": "1.2.5"
           },
           {
             "name": "org.eclipse.angus:angus-activation",
+            "purl": "",
             "version": "2.0.3"
           },
           {
             "name": "org.eclipse.angus:angus-core",
+            "purl": "",
             "version": "2.0.5"
           },
           {
             "name": "org.eclipse.angus:angus-mail",
+            "purl": "",
             "version": "2.0.5"
           },
           {
             "name": "org.eclipse.angus:imap",
+            "purl": "",
             "version": "2.0.5"
           },
           {
             "name": "org.eclipse.angus:jakarta.mail",
+            "purl": "",
             "version": "2.0.5"
           },
           {
             "name": "org.eclipse.angus:logging-mailhandler",
+            "purl": "",
             "version": "2.0.5"
           },
           {
             "name": "org.eclipse.angus:pop3",
+            "purl": "",
             "version": "2.0.5"
           },
           {
             "name": "org.eclipse.angus:smtp",
+            "purl": "",
             "version": "2.0.5"
           },
           {
             "name": "org.eclipse.jetty.ee10.websocket:jetty-ee10-websocket-jakarta-client",
+            "purl": "",
             "version": "12.0.29"
           },
           {
             "name": "org.eclipse.jetty.ee10.websocket:jetty-ee10-websocket-jakarta-common",
+            "purl": "",
             "version": "12.0.29"
           },
           {
             "name": "org.eclipse.jetty.ee10.websocket:jetty-ee10-websocket-jakarta-server",
+            "purl": "",
             "version": "12.0.29"
           },
           {
             "name": "org.eclipse.jetty.ee10.websocket:jetty-ee10-websocket-jetty-server",
+            "purl": "",
             "version": "12.0.29"
           },
           {
             "name": "org.eclipse.jetty.ee10.websocket:jetty-ee10-websocket-servlet",
+            "purl": "",
             "version": "12.0.29"
           },
           {
             "name": "org.eclipse.jetty.ee10:jetty-ee10-annotations",
+            "purl": "",
             "version": "12.0.29"
           },
           {
             "name": "org.eclipse.jetty.ee10:jetty-ee10-plus",
+            "purl": "",
             "version": "12.0.29"
           },
           {
             "name": "org.eclipse.jetty.ee10:jetty-ee10-servlet",
+            "purl": "",
             "version": "12.0.29"
           },
           {
             "name": "org.eclipse.jetty.ee10:jetty-ee10-servlets",
+            "purl": "",
             "version": "12.0.29"
           },
           {
             "name": "org.eclipse.jetty.ee10:jetty-ee10-webapp",
+            "purl": "",
             "version": "12.0.29"
           },
           {
             "name": "org.eclipse.jetty.websocket:jetty-websocket-core-client",
+            "purl": "",
             "version": "12.0.29"
           },
           {
             "name": "org.eclipse.jetty.websocket:jetty-websocket-core-common",
+            "purl": "",
             "version": "12.0.29"
           },
           {
             "name": "org.eclipse.jetty.websocket:jetty-websocket-core-server",
+            "purl": "",
             "version": "12.0.29"
           },
           {
             "name": "org.eclipse.jetty.websocket:jetty-websocket-jetty-api",
+            "purl": "",
             "version": "12.0.29"
           },
           {
             "name": "org.eclipse.jetty.websocket:jetty-websocket-jetty-common",
+            "purl": "",
             "version": "12.0.29"
           },
           {
             "name": "org.eclipse.jetty:jetty-alpn-client",
+            "purl": "",
             "version": "12.0.29"
           },
           {
             "name": "org.eclipse.jetty:jetty-client",
+            "purl": "",
             "version": "12.0.29"
           },
           {
             "name": "org.eclipse.jetty:jetty-ee",
+            "purl": "",
             "version": "12.0.29"
           },
           {
             "name": "org.eclipse.jetty:jetty-http",
+            "purl": "",
             "version": "12.0.29"
           },
           {
             "name": "org.eclipse.jetty:jetty-io",
+            "purl": "",
             "version": "12.0.29"
           },
           {
             "name": "org.eclipse.jetty:jetty-plus",
+            "purl": "",
             "version": "12.0.29"
           },
           {
             "name": "org.eclipse.jetty:jetty-security",
+            "purl": "",
             "version": "12.0.29"
           },
           {
             "name": "org.eclipse.jetty:jetty-server",
+            "purl": "",
             "version": "12.0.29"
           },
           {
             "name": "org.eclipse.jetty:jetty-session",
+            "purl": "",
             "version": "12.0.29"
           },
           {
             "name": "org.eclipse.jetty:jetty-util",
+            "purl": "",
             "version": "12.0.29"
           },
           {
             "name": "org.eclipse.jetty:jetty-xml",
+            "purl": "",
             "version": "12.0.29"
           },
           {
             "name": "org.glassfish.jaxb:jaxb-core",
+            "purl": "",
             "version": "2.3.0.1"
           },
           {
             "name": "org.glassfish.jaxb:jaxb-runtime",
+            "purl": "",
             "version": "2.3.9"
           },
           {
             "name": "org.glassfish.jaxb:txw2",
+            "purl": "",
             "version": "2.3.0.1"
           },
           {
             "name": "org.hdrhistogram:HdrHistogram",
+            "purl": "",
             "version": "2.2.2"
           },
           {
             "name": "org.hibernate.common:hibernate-commons-annotations",
+            "purl": "",
             "version": "7.0.3.Final"
           },
           {
             "name": "org.hibernate.validator:hibernate-validator",
+            "purl": "",
             "version": "8.0.3.Final"
           },
           {
             "name": "org.hibernate:hibernate-core",
+            "purl": "",
             "version": "6.6.33.Final"
           },
           {
             "name": "org.jboss.logging:jboss-logging",
+            "purl": "",
             "version": "3.6.1.Final"
           },
           {
             "name": "org.jetbrains:annotations",
+            "purl": "",
             "version": "13.0"
           },
           {
             "name": "org.json:json",
+            "purl": "",
             "version": "20231013"
           },
           {
             "name": "org.jsoup:jsoup",
+            "purl": "",
             "version": "1.15.4"
           },
           {
             "name": "org.jspecify:jspecify",
+            "purl": "",
             "version": "1.0.0"
           },
           {
             "name": "org.latencyutils:LatencyUtils",
+            "purl": "",
             "version": "2.0.3"
           },
           {
             "name": "org.locationtech.jts:jts-core",
+            "purl": "",
             "version": "1.18.1"
           },
           {
             "name": "org.mozilla:rhino",
+            "purl": "",
             "version": "1.7.13"
           },
           {
             "name": "org.opensaml:opensaml-core",
+            "purl": "",
             "version": "4.3.2"
           },
           {
             "name": "org.opensaml:opensaml-messaging-api",
+            "purl": "",
             "version": "4.3.2"
           },
           {
             "name": "org.opensaml:opensaml-profile-api",
+            "purl": "",
             "version": "4.3.2"
           },
           {
             "name": "org.opensaml:opensaml-saml-api",
+            "purl": "",
             "version": "4.3.2"
           },
           {
             "name": "org.opensaml:opensaml-saml-impl",
+            "purl": "",
             "version": "4.3.2"
           },
           {
             "name": "org.opensaml:opensaml-security-api",
+            "purl": "",
             "version": "4.3.2"
           },
           {
             "name": "org.opensaml:opensaml-security-impl",
+            "purl": "",
             "version": "4.3.2"
           },
           {
             "name": "org.opensaml:opensaml-soap-api",
+            "purl": "",
             "version": "4.3.2"
           },
           {
             "name": "org.opensaml:opensaml-soap-impl",
+            "purl": "",
             "version": "4.3.2"
           },
           {
             "name": "org.opensaml:opensaml-storage-api",
+            "purl": "",
             "version": "4.3.2"
           },
           {
             "name": "org.opensaml:opensaml-xmlsec-api",
+            "purl": "",
             "version": "4.3.2"
           },
           {
             "name": "org.opensaml:opensaml-xmlsec-impl",
+            "purl": "",
             "version": "4.3.2"
           },
           {
             "name": "org.ow2.asm:asm",
+            "purl": "",
             "version": "9.9"
           },
           {
             "name": "org.ow2.asm:asm-commons",
+            "purl": "",
             "version": "9.9"
           },
           {
             "name": "org.ow2.asm:asm-tree",
+            "purl": "",
             "version": "9.9"
           },
           {
             "name": "org.postgresql:postgresql",
+            "purl": "",
             "version": "42.7.8"
           },
           {
             "name": "org.slf4j:jul-to-slf4j",
+            "purl": "",
             "version": "2.0.17"
           },
           {
             "name": "org.slf4j:slf4j-api",
+            "purl": "",
             "version": "2.0.17"
           },
           {
             "name": "org.snakeyaml:snakeyaml-engine",
+            "purl": "",
             "version": "2.10"
           },
           {
             "name": "org.springdoc:springdoc-openapi-starter-common",
+            "purl": "",
             "version": "2.8.14"
           },
           {
             "name": "org.springdoc:springdoc-openapi-starter-webmvc-api",
+            "purl": "",
             "version": "2.8.14"
           },
           {
             "name": "org.springdoc:springdoc-openapi-starter-webmvc-ui",
+            "purl": "",
             "version": "2.8.14"
           },
           {
             "name": "org.springframework.boot:spring-boot",
+            "purl": "",
             "version": "3.5.7"
           },
           {
             "name": "org.springframework.boot:spring-boot-actuator",
+            "purl": "",
             "version": "3.5.7"
           },
           {
             "name": "org.springframework.boot:spring-boot-actuator-autoconfigure",
+            "purl": "",
             "version": "3.5.7"
           },
           {
             "name": "org.springframework.boot:spring-boot-autoconfigure",
+            "purl": "",
             "version": "3.5.7"
           },
           {
             "name": "org.springframework.boot:spring-boot-jarmode-tools",
+            "purl": "",
             "version": "3.5.7"
           },
           {
             "name": "org.springframework.data:spring-data-commons",
+            "purl": "",
             "version": "3.5.5"
           },
           {
             "name": "org.springframework.data:spring-data-jpa",
+            "purl": "",
             "version": "3.5.5"
           },
           {
             "name": "org.springframework.security:spring-security-config",
+            "purl": "",
             "version": "6.5.6"
           },
           {
             "name": "org.springframework.security:spring-security-core",
+            "purl": "",
             "version": "6.5.6"
           },
           {
             "name": "org.springframework.security:spring-security-crypto",
+            "purl": "",
             "version": "6.5.6"
           },
           {
             "name": "org.springframework.security:spring-security-oauth2-client",
+            "purl": "",
             "version": "6.5.6"
           },
           {
             "name": "org.springframework.security:spring-security-oauth2-core",
+            "purl": "",
             "version": "6.5.6"
           },
           {
             "name": "org.springframework.security:spring-security-oauth2-jose",
+            "purl": "",
             "version": "6.5.6"
           },
           {
             "name": "org.springframework.security:spring-security-saml2-service-provider",
+            "purl": "",
             "version": "6.5.6"
           },
           {
             "name": "org.springframework.security:spring-security-web",
+            "purl": "",
             "version": "6.5.6"
           },
           {
             "name": "org.springframework.session:spring-session-core",
+            "purl": "",
             "version": "3.5.3"
           },
           {
             "name": "org.springframework:spring-aop",
+            "purl": "",
             "version": "6.2.12"
           },
           {
             "name": "org.springframework:spring-aspects",
+            "purl": "",
             "version": "6.2.12"
           },
           {
             "name": "org.springframework:spring-beans",
+            "purl": "",
             "version": "6.2.12"
           },
           {
             "name": "org.springframework:spring-context",
+            "purl": "",
             "version": "6.2.12"
           },
           {
             "name": "org.springframework:spring-context-support",
+            "purl": "",
             "version": "6.2.12"
           },
           {
             "name": "org.springframework:spring-core",
+            "purl": "",
             "version": "6.2.12"
           },
           {
             "name": "org.springframework:spring-expression",
+            "purl": "",
             "version": "6.2.12"
           },
           {
             "name": "org.springframework:spring-jcl",
+            "purl": "",
             "version": "6.2.12"
           },
           {
             "name": "org.springframework:spring-jdbc",
+            "purl": "",
             "version": "6.2.12"
           },
           {
             "name": "org.springframework:spring-orm",
+            "purl": "",
             "version": "6.2.12"
           },
           {
             "name": "org.springframework:spring-tx",
+            "purl": "",
             "version": "6.2.12"
           },
           {
             "name": "org.springframework:spring-web",
+            "purl": "",
             "version": "6.2.12"
           },
           {
             "name": "org.springframework:spring-webmvc",
+            "purl": "",
             "version": "6.2.12"
           },
           {
             "name": "org.thymeleaf.extras:thymeleaf-extras-springsecurity5",
+            "purl": "",
             "version": "3.1.3.RELEASE"
           },
           {
             "name": "org.thymeleaf:thymeleaf",
+            "purl": "",
             "version": "3.1.3.RELEASE"
           },
           {
             "name": "org.thymeleaf:thymeleaf-spring5",
+            "purl": "",
             "version": "3.1.3.RELEASE"
           },
           {
             "name": "org.unbescape:unbescape",
+            "purl": "",
             "version": "1.1.6.RELEASE"
           },
           {
             "name": "org.verapdf:core",
+            "purl": "",
             "version": "1.28.2"
           },
           {
             "name": "org.verapdf:feature-reporting",
+            "purl": "",
             "version": "1.28.2"
           },
           {
             "name": "org.verapdf:metadata-fixer",
+            "purl": "",
             "version": "1.28.2"
           },
           {
             "name": "org.verapdf:parser",
+            "purl": "",
             "version": "1.28.2"
           },
           {
             "name": "org.verapdf:pdf-model",
+            "purl": "",
             "version": "1.28.2"
           },
           {
             "name": "org.verapdf:validation-model",
+            "purl": "",
             "version": "1.28.2"
           },
           {
             "name": "org.verapdf:verapdf-xmp-core",
+            "purl": "",
             "version": "1.28.2"
           },
           {
             "name": "org.webjars:swagger-ui",
+            "purl": "",
             "version": "5.30.1"
           },
           {
             "name": "org.webjars:webjars-locator-lite",
+            "purl": "",
             "version": "1.1.2"
           },
           {
             "name": "org.yaml:snakeyaml",
+            "purl": "",
             "version": "2.4"
           },
           {
             "name": "technology.tabula:tabula",
+            "purl": "",
             "version": "1.0.5"
           },
           {
             "name": "xml-apis:xml-apis",
+            "purl": "",
             "version": "1.4.01"
           },
           {
             "name": "xml-apis:xml-apis-ext",
+            "purl": "",
             "version": "1.3.04"
           }
         ],
@@ -4402,10 +6072,12 @@
         "python": [
           {
             "name": "example",
+            "purl": "",
             "version": "21.12"
           },
           {
             "name": "packaging",
+            "purl": "",
             "version": "26.2"
           }
         ],
@@ -4415,7 +6087,7 @@
       "source": "pkg",
       "summary": {
         "dotnet": 0,
-        "freebsd": 89,
+        "freebsd": 91,
         "go": 0,
         "java": 273,
         "node": 0,
@@ -4423,7 +6095,7 @@
         "python": 2,
         "ruby": 0,
         "rust": 0,
-        "total": 364
+        "total": 366
       }
     }
   }
