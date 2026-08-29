@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-16T10:58:14Z",
+  "generated": "2026-08-29T22:06:31Z",
   "image": "stirling-pdf",
   "tags": {
     "latest": {
       "app_version": "2.14.3",
       "arch": "amd64",
-      "generated": "2026-08-16T10:56:13Z",
+      "generated": "2026-08-29T22:05:12Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -147,7 +147,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-openssl-lib",
-            "version": "15.1"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -175,7 +175,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p2"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -252,7 +252,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.125"
+            "version": "3.127"
           },
           {
             "licenses": [
@@ -599,7 +599,7 @@
               "PSFL"
             ],
             "name": "python312",
-            "version": "3.12.13_4"
+            "version": "3.12.14"
           },
           {
             "licenses": [
@@ -1989,7 +1989,7 @@
     "pkg": {
       "app_version": "2.2.1_2",
       "arch": "amd64",
-      "generated": "2026-08-16T10:56:41Z",
+      "generated": "2026-08-29T22:02:57Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2131,7 +2131,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-openssl-lib",
-            "version": "15.1"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -2159,7 +2159,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p2"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -2236,7 +2236,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.125"
+            "version": "3.127"
           },
           {
             "licenses": [
@@ -2583,7 +2583,7 @@
               "PSFL"
             ],
             "name": "python312",
-            "version": "3.12.13_4"
+            "version": "3.12.14"
           },
           {
             "licenses": [
@@ -4045,7 +4045,7 @@
     "pkg-latest": {
       "app_version": "2.2.1_2",
       "arch": "amd64",
-      "generated": "2026-08-16T10:56:25Z",
+      "generated": "2026-08-29T22:04:04Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -4187,7 +4187,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-openssl-lib",
-            "version": "15.1"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -4215,7 +4215,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p2"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -4292,7 +4292,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.125"
+            "version": "3.127"
           },
           {
             "licenses": [
@@ -4322,7 +4322,7 @@
               "MIT"
             ],
             "name": "expat",
-            "version": "2.8.2"
+            "version": "2.8.3"
           },
           {
             "licenses": [
@@ -4546,7 +4546,7 @@
               "MIT"
             ],
             "name": "libffi",
-            "version": "3.7.1"
+            "version": "3.8.0"
           },
           {
             "licenses": [
@@ -4639,7 +4639,7 @@
               "PSFL"
             ],
             "name": "python312",
-            "version": "3.12.13_4"
+            "version": "3.12.14"
           },
           {
             "licenses": [
