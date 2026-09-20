@@ -7,6 +7,7 @@ Source: dbuild templates
 
 [![Build Status](https://img.shields.io/github/actions/workflow/status/daemonless/stirling-pdf/build.yaml?style=flat-square&label=Build&color=green)](https://github.com/daemonless/stirling-pdf/actions)
 [![Last Commit](https://img.shields.io/github/last-commit/daemonless/stirling-pdf?style=flat-square&label=Last+Commit&color=blue)](https://github.com/daemonless/stirling-pdf/commits)
+[![OCI Pulls](https://img.shields.io/docker/pulls/daemonless/stirling-pdf?style=flat-square&label=OCI+Pulls&color=blue)](https://hub.docker.com/r/daemonless/stirling-pdf)
 
 Locally hosted web application for performing various operations on PDF files — merge, split, compress, convert, OCR, and more.
 

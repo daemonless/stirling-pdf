@@ -1,11 +1,11 @@
 {
-  "generated": "2026-09-11T23:39:28Z",
+  "generated": "2026-09-20T23:51:17Z",
   "image": "stirling-pdf",
   "tags": {
     "latest": {
       "app_version": "2.14.3",
       "arch": "amd64",
-      "generated": "2026-09-11T23:38:12Z",
+      "generated": "2026-09-20T23:43:03Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -49,6 +49,13 @@
               "CDDL-1.0"
             ],
             "name": "FreeBSD-ctf-lib",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD-3-Clause"
+            ],
+            "name": "FreeBSD-dhclient",
             "version": "15.1"
           },
           {
@@ -168,6 +175,13 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-rc",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-resolvconf",
             "version": "15.1"
           },
           {
@@ -1975,7 +1989,7 @@
       "source": "upstream",
       "summary": {
         "dotnet": 0,
-        "freebsd": 90,
+        "freebsd": 92,
         "go": 0,
         "java": 260,
         "node": 0,
@@ -1983,13 +1997,13 @@
         "python": 2,
         "ruby": 0,
         "rust": 0,
-        "total": 352
+        "total": 354
       }
     },
     "pkg": {
       "app_version": "2.2.1_2",
       "arch": "amd64",
-      "generated": "2026-09-11T23:37:18Z",
+      "generated": "2026-09-20T23:44:46Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2033,6 +2047,13 @@
               "CDDL-1.0"
             ],
             "name": "FreeBSD-ctf-lib",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD-3-Clause"
+            ],
+            "name": "FreeBSD-dhclient",
             "version": "15.1"
           },
           {
@@ -2158,6 +2179,13 @@
             "licenses": [
               "BSD2CLAUSE"
             ],
+            "name": "FreeBSD-resolvconf",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-runtime",
             "version": "15.1p3"
           },
@@ -2236,7 +2264,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.127"
+            "version": "3.129"
           },
           {
             "licenses": [
@@ -4031,7 +4059,7 @@
       "source": "pkg",
       "summary": {
         "dotnet": 0,
-        "freebsd": 91,
+        "freebsd": 93,
         "go": 0,
         "java": 273,
         "node": 0,
@@ -4039,13 +4067,13 @@
         "python": 2,
         "ruby": 0,
         "rust": 0,
-        "total": 366
+        "total": 368
       }
     },
     "pkg-latest": {
       "app_version": "2.2.1_2",
       "arch": "amd64",
-      "generated": "2026-09-11T23:37:53Z",
+      "generated": "2026-09-20T23:39:14Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -4089,6 +4117,13 @@
               "CDDL-1.0"
             ],
             "name": "FreeBSD-ctf-lib",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD-3-Clause"
+            ],
+            "name": "FreeBSD-dhclient",
             "version": "15.1"
           },
           {
@@ -4214,6 +4249,13 @@
             "licenses": [
               "BSD2CLAUSE"
             ],
+            "name": "FreeBSD-resolvconf",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-runtime",
             "version": "15.1p3"
           },
@@ -4292,7 +4334,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.127"
+            "version": "3.129"
           },
           {
             "licenses": [
@@ -6087,7 +6129,7 @@
       "source": "pkg",
       "summary": {
         "dotnet": 0,
-        "freebsd": 91,
+        "freebsd": 93,
         "go": 0,
         "java": 273,
         "node": 0,
@@ -6095,7 +6137,7 @@
         "python": 2,
         "ruby": 0,
         "rust": 0,
-        "total": 366
+        "total": 368
       }
     }
   }
