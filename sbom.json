@@ -1,11 +1,11 @@
 {
-  "generated": "2026-09-27T06:57:27Z",
+  "generated": "2026-10-01T23:14:55Z",
   "image": "stirling-pdf",
   "tags": {
     "latest": {
-      "app_version": "3.0.1",
+      "app_version": "3.0.2",
       "arch": "amd64",
-      "generated": "2026-09-27T06:55:23Z",
+      "generated": "2026-10-01T23:11:51Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -821,7 +821,17 @@
           {
             "name": "com.sanctionco.jmail:jmail",
             "purl": "",
-            "version": "2.2.0"
+            "version": "2.2.2"
+          },
+          {
+            "name": "com.stirling:jpdfium",
+            "purl": "",
+            "version": "1.1.5"
+          },
+          {
+            "name": "com.stirling:jpdfium-natives-linux-x64",
+            "purl": "",
+            "version": "1.1.5"
           },
           {
             "name": "com.sun.activation:jakarta.activation",
@@ -846,57 +856,57 @@
           {
             "name": "com.twelvemonkeys.common:common-image",
             "purl": "",
-            "version": "3.14.0"
+            "version": "3.15.2"
           },
           {
             "name": "com.twelvemonkeys.common:common-io",
             "purl": "",
-            "version": "3.14.0"
+            "version": "3.15.2"
           },
           {
             "name": "com.twelvemonkeys.common:common-lang",
             "purl": "",
-            "version": "3.14.0"
+            "version": "3.15.2"
           },
           {
             "name": "com.twelvemonkeys.imageio:imageio-batik",
             "purl": "",
-            "version": "3.14.0"
+            "version": "3.15.2"
           },
           {
             "name": "com.twelvemonkeys.imageio:imageio-bmp",
             "purl": "",
-            "version": "3.14.0"
+            "version": "3.15.2"
           },
           {
             "name": "com.twelvemonkeys.imageio:imageio-core",
             "purl": "",
-            "version": "3.14.0"
+            "version": "3.15.2"
           },
           {
             "name": "com.twelvemonkeys.imageio:imageio-jpeg",
             "purl": "",
-            "version": "3.14.0"
+            "version": "3.15.2"
           },
           {
             "name": "com.twelvemonkeys.imageio:imageio-metadata",
             "purl": "",
-            "version": "3.14.0"
+            "version": "3.15.2"
           },
           {
             "name": "com.twelvemonkeys.imageio:imageio-psd",
             "purl": "",
-            "version": "3.14.0"
+            "version": "3.15.2"
           },
           {
             "name": "com.twelvemonkeys.imageio:imageio-tiff",
             "purl": "",
-            "version": "3.14.0"
+            "version": "3.15.2"
           },
           {
             "name": "com.twelvemonkeys.imageio:imageio-webp",
             "purl": "",
-            "version": "3.14.0"
+            "version": "3.15.2"
           },
           {
             "name": "com.vladsch.flexmark:flexmark",
@@ -1676,7 +1686,7 @@
           {
             "name": "org.simplejavamail:core-module",
             "purl": "",
-            "version": "9.3.2"
+            "version": "9.3.5"
           },
           {
             "name": "org.simplejavamail:outlook-message-parser",
@@ -1686,12 +1696,12 @@
           {
             "name": "org.simplejavamail:outlook-module",
             "purl": "",
-            "version": "9.3.2"
+            "version": "9.3.5"
           },
           {
             "name": "org.simplejavamail:simple-java-mail",
             "purl": "",
-            "version": "9.3.2"
+            "version": "9.3.5"
           },
           {
             "name": "org.slf4j:jul-to-slf4j",
@@ -1946,19 +1956,19 @@
         "dotnet": 0,
         "freebsd": 92,
         "go": 0,
-        "java": 251,
+        "java": 253,
         "node": 0,
         "php": 0,
         "python": 2,
         "ruby": 0,
         "rust": 0,
-        "total": 345
+        "total": 347
       }
     },
     "pkg": {
       "app_version": "2.2.1_2",
       "arch": "amd64",
-      "generated": "2026-09-27T06:56:05Z",
+      "generated": "2026-10-01T23:12:14Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -4028,7 +4038,7 @@
     "pkg-latest": {
       "app_version": "2.2.1_2",
       "arch": "amd64",
-      "generated": "2026-09-27T06:55:32Z",
+      "generated": "2026-10-01T23:13:23Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -4636,7 +4646,7 @@
               "PSFL"
             ],
             "name": "python312",
-            "version": "3.12.14"
+            "version": "3.12.14_1"
           },
           {
             "licenses": [
