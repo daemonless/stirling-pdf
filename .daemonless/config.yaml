@@ -7,10 +7,9 @@ build:
   variants:
     - tag: latest
       containerfile: Containerfile
-    - tag: pkg
-      containerfile: Containerfile.pkg
     - tag: pkg-latest
       containerfile: Containerfile.pkg
+      aliases: ["pkg"]
       args:
         BASE_VERSION: "15-latest"
 
