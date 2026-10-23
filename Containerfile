@@ -6,7 +6,7 @@
 
 # syntax=docker/dockerfile:1
 ARG BASE_VERSION=15.1
-FROM ghcr.io/daemonless/base:${BASE_VERSION}
+FROM ghcr.io/daemonless/base-exec:${BASE_VERSION}
 
 ARG FREEBSD_ARCH=amd64
 ARG PACKAGES="openjdk25 ca_root_nss jq"
@@ -59,9 +59,13 @@ RUN mkdir -p /config && chown -R bsd:bsd /config
 
 # Copy root filesystem
 COPY root/ /
+RUN rm /daemonless/libexec/stirling-pdf.pkg && \
+    chmod +x /daemonless/libexec/stirling-pdf /daemonless/init.d/*
+
+CMD ["/daemonless/libexec/stirling-pdf"]
 
 # Set permissions
-RUN chmod +x /etc/services.d/stirling-pdf/run /healthz /etc/cont-init.d/* 2>/dev/null || true
+RUN chmod +x /healthz
 
 # --- Expose (Injected by Generator) ---
 EXPOSE 8080

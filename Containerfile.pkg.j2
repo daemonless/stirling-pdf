@@ -1,5 +1,5 @@
 ARG BASE_VERSION=15.1
-FROM ghcr.io/daemonless/base:${BASE_VERSION}
+FROM ghcr.io/daemonless/base-exec:${BASE_VERSION}
 
 ARG FREEBSD_ARCH=amd64
 ARG PKG_NAME="stirling-pdf"
@@ -36,11 +36,15 @@ RUN mkdir -p /config && chown -R bsd:bsd /config
 
 # Copy root filesystem
 COPY root/ /
-# Use pkg-specific run script
-COPY root/etc/services.d/stirling-pdf/run.pkg /etc/services.d/stirling-pdf/run
+RUN chmod +x /daemonless/libexec/stirling-pdf /daemonless/init.d/* /daemonless/libexec/stirling-pdf.pkg
+
+CMD ["/daemonless/libexec/stirling-pdf"]
+
+# The pkg layout's launcher
+RUN mv /daemonless/libexec/stirling-pdf.pkg /daemonless/libexec/stirling-pdf
 
 # Set permissions
-RUN chmod +x /etc/services.d/stirling-pdf/run /healthz /etc/cont-init.d/* 2>/dev/null || true
+RUN chmod +x /healthz
 
 # --- Expose (Injected by Generator) ---
 {%- if ports %}
