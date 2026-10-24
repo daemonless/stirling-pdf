@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-23T08:29:59Z",
+  "generated": "2026-10-24T12:02:33Z",
   "image": "stirling-pdf",
   "tags": {
     "latest": {
-      "app_version": "3.2.1",
+      "app_version": "3.2.2",
       "arch": "amd64",
-      "generated": "2026-10-23T07:57:58Z",
+      "generated": "2026-10-24T12:01:24Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -266,7 +266,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.131"
+            "version": "3.131.1"
           },
           {
             "licenses": [
@@ -1957,7 +1957,7 @@
     "pkg-latest": {
       "app_version": "3.1.0",
       "arch": "amd64",
-      "generated": "2026-10-23T08:08:57Z",
+      "generated": "2026-10-24T11:58:17Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
