@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-24T12:02:33Z",
+  "generated": "2026-10-26T07:26:44Z",
   "image": "stirling-pdf",
   "tags": {
     "latest": {
       "app_version": "3.2.2",
       "arch": "amd64",
-      "generated": "2026-10-24T12:01:24Z",
+      "generated": "2026-10-26T07:24:30Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1955,9 +1955,9 @@
       }
     },
     "pkg-latest": {
-      "app_version": "3.1.0",
+      "app_version": "3.2.1",
       "arch": "amd64",
-      "generated": "2026-10-24T11:58:17Z",
+      "generated": "2026-10-26T07:25:20Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2211,7 +2211,7 @@
               "MIT"
             ],
             "name": "brotli",
-            "version": "1.2.0,1"
+            "version": "1.2.1,1"
           },
           {
             "licenses": [
@@ -2572,7 +2572,7 @@
               "MIT"
             ],
             "name": "stirling-pdf",
-            "version": "3.1.0"
+            "version": "3.2.1"
           },
           {
             "licenses": [
@@ -2869,12 +2869,12 @@
           {
             "name": "com.stirling:jpdfium",
             "purl": "",
-            "version": "1.1.5"
+            "version": "1.1.6"
           },
           {
             "name": "com.stirling:jpdfium-natives-linux-x64",
             "purl": "",
-            "version": "1.1.5"
+            "version": "1.1.6"
           },
           {
             "name": "com.stirling:stirling-office-convert",
