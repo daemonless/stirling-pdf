@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-26T07:26:44Z",
+  "generated": "2026-10-28T15:48:51Z",
   "image": "stirling-pdf",
   "tags": {
     "latest": {
       "app_version": "3.2.2",
       "arch": "amd64",
-      "generated": "2026-10-26T07:24:30Z",
+      "generated": "2026-10-28T15:47:09Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -259,14 +259,14 @@
               "MIT"
             ],
             "name": "brotli",
-            "version": "1.2.0,1"
+            "version": "1.2.1,1"
           },
           {
             "licenses": [
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.131.1"
+            "version": "3.132"
           },
           {
             "licenses": [
@@ -1955,9 +1955,9 @@
       }
     },
     "pkg-latest": {
-      "app_version": "3.2.1",
+      "app_version": "3.2.2",
       "arch": "amd64",
-      "generated": "2026-10-26T07:25:20Z",
+      "generated": "2026-10-28T15:44:48Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2522,7 +2522,7 @@
               "GPLv2"
             ],
             "name": "openjdk25",
-            "version": "25.0.4+7.f.1_1"
+            "version": "25.0.5.0.2+1.f.1"
           },
           {
             "licenses": [
@@ -2572,7 +2572,7 @@
               "MIT"
             ],
             "name": "stirling-pdf",
-            "version": "3.2.1"
+            "version": "3.2.2"
           },
           {
             "licenses": [
