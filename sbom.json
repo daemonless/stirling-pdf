@@ -1,11 +1,11 @@
 {
-  "generated": "2026-11-04T14:14:04Z",
+  "generated": "2026-11-05T20:51:20Z",
   "image": "stirling-pdf",
   "tags": {
     "latest": {
-      "app_version": "3.2.2",
+      "app_version": "3.3.0",
       "arch": "amd64",
-      "generated": "2026-11-04T14:08:37Z",
+      "generated": "2026-11-05T20:48:44Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -650,12 +650,12 @@
           {
             "name": "ch.qos.logback:logback-classic",
             "purl": "",
-            "version": "1.6.3"
+            "version": "1.6.5"
           },
           {
             "name": "ch.qos.logback:logback-core",
             "purl": "",
-            "version": "1.6.3"
+            "version": "1.6.5"
           },
           {
             "name": "com.adobe.xmp:xmpcore",
@@ -665,7 +665,7 @@
           {
             "name": "com.bucket4j:bucket4j_jdk17-core",
             "purl": "",
-            "version": "8.19.0"
+            "version": "8.20.0"
           },
           {
             "name": "com.drewnoakes:metadata-extractor",
@@ -675,27 +675,27 @@
           {
             "name": "com.fasterxml.jackson.core:jackson-annotations",
             "purl": "",
-            "version": "2.21"
+            "version": "2.22"
           },
           {
             "name": "com.fasterxml.jackson.core:jackson-core",
             "purl": "",
-            "version": "2.21.5"
+            "version": "2.22.3"
           },
           {
             "name": "com.fasterxml.jackson.core:jackson-databind",
             "purl": "",
-            "version": "2.21.5"
+            "version": "2.22.3"
           },
           {
             "name": "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml",
             "purl": "",
-            "version": "2.21.5"
+            "version": "2.22.3"
           },
           {
             "name": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310",
             "purl": "",
-            "version": "2.21.5"
+            "version": "2.22.3"
           },
           {
             "name": "com.fasterxml:classmate",
@@ -740,7 +740,7 @@
           {
             "name": "com.google.errorprone:error_prone_annotations",
             "purl": "",
-            "version": "2.48.0"
+            "version": "2.50.0"
           },
           {
             "name": "com.google.guava:failureaccess",
@@ -750,7 +750,7 @@
           {
             "name": "com.google.guava:guava",
             "purl": "",
-            "version": "33.6.0-jre"
+            "version": "33.7.2-jre"
           },
           {
             "name": "com.google.guava:listenablefuture",
@@ -793,29 +793,24 @@
             "version": "2.2.2"
           },
           {
-            "name": "com.stirling:jpdfium",
-            "purl": "",
-            "version": "1.1.6"
-          },
-          {
-            "name": "com.stirling:jpdfium-natives-linux-x64",
-            "purl": "",
-            "version": "1.1.6"
-          },
-          {
             "name": "com.stirling:stirling-office-convert",
             "purl": "",
-            "version": "0.2.2"
+            "version": "0.3.3"
           },
           {
             "name": "com.stirling:stirling-office-convert-legacy",
             "purl": "",
-            "version": "0.2.0"
+            "version": "0.3.3"
+          },
+          {
+            "name": "com.stirling:stirling-office-convert-pdfa",
+            "purl": "",
+            "version": "0.3.3"
           },
           {
             "name": "com.stirling:stirling-office-convert-topdf",
             "purl": "",
-            "version": "0.2.1"
+            "version": "0.3.3"
           },
           {
             "name": "com.sun.activation:jakarta.activation",
@@ -1035,22 +1030,22 @@
           {
             "name": "io.micrometer:micrometer-commons",
             "purl": "",
-            "version": "1.17.1"
+            "version": "1.17.2"
           },
           {
             "name": "io.micrometer:micrometer-core",
             "purl": "",
-            "version": "1.17.1"
+            "version": "1.17.2"
           },
           {
             "name": "io.micrometer:micrometer-jakarta9",
             "purl": "",
-            "version": "1.17.1"
+            "version": "1.17.2"
           },
           {
             "name": "io.micrometer:micrometer-observation",
             "purl": "",
-            "version": "1.17.1"
+            "version": "1.17.2"
           },
           {
             "name": "io.swagger.core.v3:swagger-annotations-jakarta",
@@ -1260,7 +1255,7 @@
           {
             "name": "org.apache.tomcat.embed:tomcat-embed-el",
             "purl": "",
-            "version": "11.0.24"
+            "version": "11.0.27"
           },
           {
             "name": "org.apache.xmlbeans:xmlbeans",
@@ -1378,6 +1373,11 @@
             "version": "1.85"
           },
           {
+            "name": "org.brotli:dec",
+            "purl": "",
+            "version": "0.1.2"
+          },
+          {
             "name": "org.commonmark:commonmark",
             "purl": "",
             "version": "0.30.0"
@@ -1425,177 +1425,177 @@
           {
             "name": "org.eclipse.jetty.compression:jetty-compression-common",
             "purl": "",
-            "version": "12.1.12"
+            "version": "12.1.14"
           },
           {
             "name": "org.eclipse.jetty.compression:jetty-compression-gzip",
             "purl": "",
-            "version": "12.1.12"
+            "version": "12.1.14"
           },
           {
             "name": "org.eclipse.jetty.compression:jetty-compression-server",
             "purl": "",
-            "version": "12.1.12"
+            "version": "12.1.14"
           },
           {
             "name": "org.eclipse.jetty.ee11.websocket:jetty-ee11-websocket-jakarta-client",
             "purl": "",
-            "version": "12.1.12"
+            "version": "12.1.14"
           },
           {
             "name": "org.eclipse.jetty.ee11.websocket:jetty-ee11-websocket-jakarta-common",
             "purl": "",
-            "version": "12.1.12"
+            "version": "12.1.14"
           },
           {
             "name": "org.eclipse.jetty.ee11.websocket:jetty-ee11-websocket-jakarta-server",
             "purl": "",
-            "version": "12.1.12"
+            "version": "12.1.14"
           },
           {
             "name": "org.eclipse.jetty.ee11.websocket:jetty-ee11-websocket-jetty-server",
             "purl": "",
-            "version": "12.1.12"
+            "version": "12.1.14"
           },
           {
             "name": "org.eclipse.jetty.ee11.websocket:jetty-ee11-websocket-servlet",
             "purl": "",
-            "version": "12.1.12"
+            "version": "12.1.14"
           },
           {
             "name": "org.eclipse.jetty.ee11:jetty-ee11-annotations",
             "purl": "",
-            "version": "12.1.12"
+            "version": "12.1.14"
           },
           {
             "name": "org.eclipse.jetty.ee11:jetty-ee11-plus",
             "purl": "",
-            "version": "12.1.12"
+            "version": "12.1.14"
           },
           {
             "name": "org.eclipse.jetty.ee11:jetty-ee11-servlet",
             "purl": "",
-            "version": "12.1.12"
+            "version": "12.1.14"
           },
           {
             "name": "org.eclipse.jetty.ee11:jetty-ee11-webapp",
             "purl": "",
-            "version": "12.1.12"
+            "version": "12.1.14"
           },
           {
             "name": "org.eclipse.jetty.ee:jetty-ee-webapp",
             "purl": "",
-            "version": "12.1.12"
+            "version": "12.1.14"
           },
           {
             "name": "org.eclipse.jetty.http2:jetty-http2-common",
             "purl": "",
-            "version": "12.1.12"
+            "version": "12.1.14"
           },
           {
             "name": "org.eclipse.jetty.http2:jetty-http2-hpack",
             "purl": "",
-            "version": "12.1.12"
+            "version": "12.1.14"
           },
           {
             "name": "org.eclipse.jetty.http2:jetty-http2-server",
             "purl": "",
-            "version": "12.1.12"
+            "version": "12.1.14"
           },
           {
             "name": "org.eclipse.jetty.websocket:jetty-websocket-core-client",
             "purl": "",
-            "version": "12.1.12"
+            "version": "12.1.14"
           },
           {
             "name": "org.eclipse.jetty.websocket:jetty-websocket-core-common",
             "purl": "",
-            "version": "12.1.12"
+            "version": "12.1.14"
           },
           {
             "name": "org.eclipse.jetty.websocket:jetty-websocket-core-server",
             "purl": "",
-            "version": "12.1.12"
+            "version": "12.1.14"
           },
           {
             "name": "org.eclipse.jetty.websocket:jetty-websocket-jetty-api",
             "purl": "",
-            "version": "12.1.12"
+            "version": "12.1.14"
           },
           {
             "name": "org.eclipse.jetty.websocket:jetty-websocket-jetty-common",
             "purl": "",
-            "version": "12.1.12"
+            "version": "12.1.14"
           },
           {
             "name": "org.eclipse.jetty.websocket:jetty-websocket-jetty-server",
             "purl": "",
-            "version": "12.1.12"
+            "version": "12.1.14"
           },
           {
             "name": "org.eclipse.jetty:jetty-alpn-client",
             "purl": "",
-            "version": "12.1.12"
+            "version": "12.1.14"
           },
           {
             "name": "org.eclipse.jetty:jetty-alpn-java-server",
             "purl": "",
-            "version": "12.1.12"
+            "version": "12.1.14"
           },
           {
             "name": "org.eclipse.jetty:jetty-alpn-server",
             "purl": "",
-            "version": "12.1.12"
+            "version": "12.1.14"
           },
           {
             "name": "org.eclipse.jetty:jetty-annotations",
             "purl": "",
-            "version": "12.1.12"
+            "version": "12.1.14"
           },
           {
             "name": "org.eclipse.jetty:jetty-client",
             "purl": "",
-            "version": "12.1.12"
+            "version": "12.1.14"
           },
           {
             "name": "org.eclipse.jetty:jetty-http",
             "purl": "",
-            "version": "12.1.12"
+            "version": "12.1.14"
           },
           {
             "name": "org.eclipse.jetty:jetty-io",
             "purl": "",
-            "version": "12.1.12"
+            "version": "12.1.14"
           },
           {
             "name": "org.eclipse.jetty:jetty-plus",
             "purl": "",
-            "version": "12.1.12"
+            "version": "12.1.14"
           },
           {
             "name": "org.eclipse.jetty:jetty-security",
             "purl": "",
-            "version": "12.1.12"
+            "version": "12.1.14"
           },
           {
             "name": "org.eclipse.jetty:jetty-server",
             "purl": "",
-            "version": "12.1.12"
+            "version": "12.1.14"
           },
           {
             "name": "org.eclipse.jetty:jetty-session",
             "purl": "",
-            "version": "12.1.12"
+            "version": "12.1.14"
           },
           {
             "name": "org.eclipse.jetty:jetty-util",
             "purl": "",
-            "version": "12.1.12"
+            "version": "12.1.14"
           },
           {
             "name": "org.eclipse.jetty:jetty-xml",
             "purl": "",
-            "version": "12.1.12"
+            "version": "12.1.14"
           },
           {
             "name": "org.glassfish.jaxb:jaxb-core",
@@ -1620,7 +1620,7 @@
           {
             "name": "org.hibernate.validator:hibernate-validator",
             "purl": "",
-            "version": "9.1.3.Final"
+            "version": "9.1.5.Final"
           },
           {
             "name": "org.jboss.logging:jboss-logging",
@@ -1640,7 +1640,7 @@
           {
             "name": "org.jsoup:jsoup",
             "purl": "",
-            "version": "1.15.4"
+            "version": "1.23.2"
           },
           {
             "name": "org.jspecify:jspecify",
@@ -1675,7 +1675,7 @@
           {
             "name": "org.simplejavamail:core-module",
             "purl": "",
-            "version": "9.3.5"
+            "version": "9.3.8"
           },
           {
             "name": "org.simplejavamail:outlook-message-parser",
@@ -1685,22 +1685,22 @@
           {
             "name": "org.simplejavamail:outlook-module",
             "purl": "",
-            "version": "9.3.5"
+            "version": "9.3.8"
           },
           {
             "name": "org.simplejavamail:simple-java-mail",
             "purl": "",
-            "version": "9.3.5"
+            "version": "9.3.8"
           },
           {
             "name": "org.slf4j:jul-to-slf4j",
             "purl": "",
-            "version": "2.0.18"
+            "version": "2.0.20"
           },
           {
             "name": "org.slf4j:slf4j-api",
             "purl": "",
-            "version": "2.0.18"
+            "version": "2.0.20"
           },
           {
             "name": "org.snakeyaml:snakeyaml-engine",
@@ -1725,112 +1725,112 @@
           {
             "name": "org.springframework.boot:spring-boot",
             "purl": "",
-            "version": "4.1.1"
+            "version": "4.1.2"
           },
           {
             "name": "org.springframework.boot:spring-boot-actuator",
             "purl": "",
-            "version": "4.1.1"
+            "version": "4.1.2"
           },
           {
             "name": "org.springframework.boot:spring-boot-actuator-autoconfigure",
             "purl": "",
-            "version": "4.1.1"
+            "version": "4.1.2"
           },
           {
             "name": "org.springframework.boot:spring-boot-autoconfigure",
             "purl": "",
-            "version": "4.1.1"
+            "version": "4.1.2"
           },
           {
             "name": "org.springframework.boot:spring-boot-health",
             "purl": "",
-            "version": "4.1.1"
+            "version": "4.1.2"
           },
           {
             "name": "org.springframework.boot:spring-boot-http-converter",
             "purl": "",
-            "version": "4.1.1"
+            "version": "4.1.2"
           },
           {
             "name": "org.springframework.boot:spring-boot-jackson",
             "purl": "",
-            "version": "4.1.1"
+            "version": "4.1.2"
           },
           {
             "name": "org.springframework.boot:spring-boot-jarmode-tools",
             "purl": "",
-            "version": "4.1.1"
+            "version": "4.1.2"
           },
           {
             "name": "org.springframework.boot:spring-boot-jetty",
             "purl": "",
-            "version": "4.1.1"
+            "version": "4.1.2"
           },
           {
             "name": "org.springframework.boot:spring-boot-micrometer-metrics",
             "purl": "",
-            "version": "4.1.1"
+            "version": "4.1.2"
           },
           {
             "name": "org.springframework.boot:spring-boot-micrometer-observation",
             "purl": "",
-            "version": "4.1.1"
+            "version": "4.1.2"
           },
           {
             "name": "org.springframework.boot:spring-boot-servlet",
             "purl": "",
-            "version": "4.1.1"
+            "version": "4.1.2"
           },
           {
             "name": "org.springframework.boot:spring-boot-validation",
             "purl": "",
-            "version": "4.1.1"
+            "version": "4.1.2"
           },
           {
             "name": "org.springframework.boot:spring-boot-web-server",
             "purl": "",
-            "version": "4.1.1"
+            "version": "4.1.2"
           },
           {
             "name": "org.springframework.boot:spring-boot-webmvc",
             "purl": "",
-            "version": "4.1.1"
+            "version": "4.1.2"
           },
           {
             "name": "org.springframework:spring-aop",
             "purl": "",
-            "version": "7.0.9"
+            "version": "7.0.10"
           },
           {
             "name": "org.springframework:spring-beans",
             "purl": "",
-            "version": "7.0.9"
+            "version": "7.0.10"
           },
           {
             "name": "org.springframework:spring-context",
             "purl": "",
-            "version": "7.0.9"
+            "version": "7.0.10"
           },
           {
             "name": "org.springframework:spring-core",
             "purl": "",
-            "version": "7.0.9"
+            "version": "7.0.10"
           },
           {
             "name": "org.springframework:spring-expression",
             "purl": "",
-            "version": "7.0.9"
+            "version": "7.0.10"
           },
           {
             "name": "org.springframework:spring-web",
             "purl": "",
-            "version": "7.0.9"
+            "version": "7.0.10"
           },
           {
             "name": "org.springframework:spring-webmvc",
             "purl": "",
-            "version": "7.0.9"
+            "version": "7.0.10"
           },
           {
             "name": "org.telegram:telegrambots",
@@ -1841,6 +1841,11 @@
             "name": "org.telegram:telegrambots-meta",
             "purl": "",
             "version": "6.9.7.1"
+          },
+          {
+            "name": "org.tukaani:xz",
+            "purl": "",
+            "version": "1.10"
           },
           {
             "name": "org.verapdf:core",
@@ -1885,7 +1890,7 @@
           {
             "name": "org.webjars:webjars-locator-lite",
             "purl": "",
-            "version": "1.1.4"
+            "version": "1.1.5"
           },
           {
             "name": "org.xmlresolver:xmlresolver",
@@ -1905,12 +1910,12 @@
           {
             "name": "tools.jackson.core:jackson-core",
             "purl": "",
-            "version": "3.1.5"
+            "version": "3.1.7"
           },
           {
             "name": "tools.jackson.core:jackson-databind",
             "purl": "",
-            "version": "3.1.5"
+            "version": "3.1.7"
           },
           {
             "name": "xml-apis:xml-apis",
@@ -1945,19 +1950,19 @@
         "dotnet": 0,
         "freebsd": 89,
         "go": 0,
-        "java": 255,
+        "java": 256,
         "node": 0,
         "php": 0,
         "python": 2,
         "ruby": 0,
         "rust": 0,
-        "total": 346
+        "total": 347
       }
     },
     "pkg-latest": {
       "app_version": "3.2.2",
       "arch": "amd64",
-      "generated": "2026-11-04T14:11:52Z",
+      "generated": "2026-11-05T20:49:21Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
