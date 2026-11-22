@@ -1,11 +1,11 @@
 {
-  "generated": "2026-11-19T22:58:12Z",
+  "generated": "2026-11-22T20:23:37Z",
   "image": "stirling-pdf",
   "tags": {
     "latest": {
-      "app_version": "3.4.0",
+      "app_version": "3.5.0",
       "arch": "amd64",
-      "generated": "2026-11-19T22:56:56Z",
+      "generated": "2026-11-22T20:22:39Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -793,67 +793,7 @@
             "version": "2.2.2"
           },
           {
-            "name": "com.stirling:jpdfium",
-            "purl": "",
-            "version": "1.3.0"
-          },
-          {
-            "name": "com.stirling:jpdfium-natives-darwin-arm64",
-            "purl": "",
-            "version": "1.3.0"
-          },
-          {
-            "name": "com.stirling:jpdfium-natives-darwin-x64",
-            "purl": "",
-            "version": "1.3.0"
-          },
-          {
-            "name": "com.stirling:jpdfium-natives-linux-arm64",
-            "purl": "",
-            "version": "1.3.0"
-          },
-          {
-            "name": "com.stirling:jpdfium-natives-linux-musl-arm64",
-            "purl": "",
-            "version": "1.3.0"
-          },
-          {
-            "name": "com.stirling:jpdfium-natives-linux-musl-x64",
-            "purl": "",
-            "version": "1.3.0"
-          },
-          {
-            "name": "com.stirling:jpdfium-natives-linux-x64",
-            "purl": "",
-            "version": "1.3.0"
-          },
-          {
-            "name": "com.stirling:jpdfium-natives-windows-arm64",
-            "purl": "",
-            "version": "1.3.0"
-          },
-          {
-            "name": "com.stirling:jpdfium-natives-windows-x64",
-            "purl": "",
-            "version": "1.3.0"
-          },
-          {
-            "name": "com.stirling:stirling-office-convert",
-            "purl": "",
-            "version": "0.3.3"
-          },
-          {
             "name": "com.stirling:stirling-office-convert-legacy",
-            "purl": "",
-            "version": "0.3.3"
-          },
-          {
-            "name": "com.stirling:stirling-office-convert-pdfa",
-            "purl": "",
-            "version": "0.3.3"
-          },
-          {
-            "name": "com.stirling:stirling-office-convert-topdf",
             "purl": "",
             "version": "0.3.3"
           },
@@ -914,6 +854,11 @@
           },
           {
             "name": "com.twelvemonkeys.imageio:imageio-metadata",
+            "purl": "",
+            "version": "3.15.3"
+          },
+          {
+            "name": "com.twelvemonkeys.imageio:imageio-pnm",
             "purl": "",
             "version": "3.15.3"
           },
@@ -1890,7 +1835,7 @@
           {
             "name": "org.tukaani:xz",
             "purl": "",
-            "version": "1.10"
+            "version": "1.12"
           },
           {
             "name": "org.verapdf:core",
@@ -1995,13 +1940,13 @@
         "dotnet": 0,
         "freebsd": 89,
         "go": 0,
-        "java": 265,
+        "java": 254,
         "node": 0,
         "php": 0,
         "python": 2,
         "ruby": 0,
         "rust": 0,
-        "total": 356
+        "total": 345
       }
     },
     "pkg-latest": {
