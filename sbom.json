@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-22T20:23:37Z",
+  "generated": "2026-11-27T10:19:04Z",
   "image": "stirling-pdf",
   "tags": {
     "latest": {
@@ -1950,9 +1950,9 @@
       }
     },
     "pkg-latest": {
-      "app_version": "3.3.0",
+      "app_version": "3.4.0",
       "arch": "amd64",
-      "generated": "2026-11-14T22:38:16Z",
+      "generated": "2026-11-27T10:16:55Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2206,7 +2206,7 @@
               "MIT"
             ],
             "name": "brotli",
-            "version": "1.2.1,1"
+            "version": "1.2.1_1,1"
           },
           {
             "licenses": [
@@ -2236,7 +2236,7 @@
               "MIT"
             ],
             "name": "expat",
-            "version": "2.10.0"
+            "version": "2.11.0"
           },
           {
             "licenses": [
@@ -2460,14 +2460,14 @@
               "MIT"
             ],
             "name": "libffi",
-            "version": "3.8.0"
+            "version": "3.8.1"
           },
           {
             "licenses": [
               "MIT"
             ],
             "name": "libfontenc",
-            "version": "1.1.9"
+            "version": "1.1.10"
           },
           {
             "licenses": [
@@ -2482,7 +2482,7 @@
               "GPLv2"
             ],
             "name": "liblz4",
-            "version": "1.10.0_2,1"
+            "version": "1.11.1,1"
           },
           {
             "licenses": [
@@ -2517,7 +2517,7 @@
               "GPLv2"
             ],
             "name": "openjdk25",
-            "version": "25.0.5.0.3+1.f.1_2"
+            "version": "25.0.5.1+2.f.1_2"
           },
           {
             "licenses": [
@@ -2531,11 +2531,11 @@
               "BSD2CLAUSE"
             ],
             "name": "pkg",
-            "version": "2.9.0"
+            "version": "2.9.3"
           },
           {
             "licenses": [
-              "Libpng"
+              "libpng-2.0"
             ],
             "name": "png",
             "version": "1.6.59_1"
@@ -2567,7 +2567,7 @@
               "MIT"
             ],
             "name": "stirling-pdf",
-            "version": "3.3.0"
+            "version": "3.4.0"
           },
           {
             "licenses": [
@@ -2654,27 +2654,27 @@
           {
             "name": "com.fasterxml.jackson.core:jackson-core",
             "purl": "",
-            "version": "2.22.3"
+            "version": "2.22.4"
           },
           {
             "name": "com.fasterxml.jackson.core:jackson-databind",
             "purl": "",
-            "version": "2.22.3"
+            "version": "2.22.4"
           },
           {
             "name": "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml",
             "purl": "",
-            "version": "2.22.3"
+            "version": "2.22.4"
           },
           {
             "name": "com.fasterxml.jackson.datatype:jackson-datatype-jdk8",
             "purl": "",
-            "version": "2.22.3"
+            "version": "2.22.4"
           },
           {
             "name": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310",
             "purl": "",
-            "version": "2.22.3"
+            "version": "2.22.4"
           },
           {
             "name": "com.fasterxml:classmate",
@@ -2809,7 +2809,7 @@
           {
             "name": "com.hierynomus:smbj",
             "purl": "",
-            "version": "0.14.0"
+            "version": "0.15.0"
           },
           {
             "name": "com.hubspot.immutables:immutables-exceptions",
@@ -2954,57 +2954,57 @@
           {
             "name": "com.twelvemonkeys.common:common-image",
             "purl": "",
-            "version": "3.15.2"
+            "version": "3.15.3"
           },
           {
             "name": "com.twelvemonkeys.common:common-io",
             "purl": "",
-            "version": "3.15.2"
+            "version": "3.15.3"
           },
           {
             "name": "com.twelvemonkeys.common:common-lang",
             "purl": "",
-            "version": "3.15.2"
+            "version": "3.15.3"
           },
           {
             "name": "com.twelvemonkeys.imageio:imageio-batik",
             "purl": "",
-            "version": "3.15.2"
+            "version": "3.15.3"
           },
           {
             "name": "com.twelvemonkeys.imageio:imageio-bmp",
             "purl": "",
-            "version": "3.15.2"
+            "version": "3.15.3"
           },
           {
             "name": "com.twelvemonkeys.imageio:imageio-core",
             "purl": "",
-            "version": "3.15.2"
+            "version": "3.15.3"
           },
           {
             "name": "com.twelvemonkeys.imageio:imageio-jpeg",
             "purl": "",
-            "version": "3.15.2"
+            "version": "3.15.3"
           },
           {
             "name": "com.twelvemonkeys.imageio:imageio-metadata",
             "purl": "",
-            "version": "3.15.2"
+            "version": "3.15.3"
           },
           {
             "name": "com.twelvemonkeys.imageio:imageio-psd",
             "purl": "",
-            "version": "3.15.2"
+            "version": "3.15.3"
           },
           {
             "name": "com.twelvemonkeys.imageio:imageio-tiff",
             "purl": "",
-            "version": "3.15.2"
+            "version": "3.15.3"
           },
           {
             "name": "com.twelvemonkeys.imageio:imageio-webp",
             "purl": "",
-            "version": "3.15.2"
+            "version": "3.15.3"
           },
           {
             "name": "com.typesafe:config",
@@ -3334,17 +3334,17 @@
           {
             "name": "io.swagger.core.v3:swagger-annotations-jakarta",
             "purl": "",
-            "version": "2.2.53"
+            "version": "2.2.55"
           },
           {
             "name": "io.swagger.core.v3:swagger-core-jakarta",
             "purl": "",
-            "version": "2.2.53"
+            "version": "2.2.55"
           },
           {
             "name": "io.swagger.core.v3:swagger-models-jakarta",
             "purl": "",
-            "version": "2.2.53"
+            "version": "2.2.55"
           },
           {
             "name": "jakarta.activation:jakarta.activation-api",
@@ -3439,7 +3439,7 @@
           {
             "name": "net.engio:mbassador",
             "purl": "",
-            "version": "1.3.0"
+            "version": "1.3.2"
           },
           {
             "name": "net.java.dev.stax-utils:stax-utils",
@@ -4189,7 +4189,7 @@
           {
             "name": "org.simplejavamail:core-module",
             "purl": "",
-            "version": "9.3.8"
+            "version": "9.3.9"
           },
           {
             "name": "org.simplejavamail:outlook-message-parser",
@@ -4199,12 +4199,12 @@
           {
             "name": "org.simplejavamail:outlook-module",
             "purl": "",
-            "version": "9.3.8"
+            "version": "9.3.9"
           },
           {
             "name": "org.simplejavamail:simple-java-mail",
             "purl": "",
-            "version": "9.3.8"
+            "version": "9.3.9"
           },
           {
             "name": "org.slf4j:jul-to-slf4j",
@@ -4224,17 +4224,17 @@
           {
             "name": "org.springdoc:springdoc-openapi-starter-common",
             "purl": "",
-            "version": "3.0.3"
+            "version": "3.2.0"
           },
           {
             "name": "org.springdoc:springdoc-openapi-starter-webmvc-api",
             "purl": "",
-            "version": "3.0.3"
+            "version": "3.2.0"
           },
           {
             "name": "org.springdoc:springdoc-openapi-starter-webmvc-ui",
             "purl": "",
-            "version": "3.0.3"
+            "version": "3.2.0"
           },
           {
             "name": "org.springframework.boot:spring-boot",
@@ -4579,7 +4579,7 @@
           {
             "name": "org.webjars:swagger-ui",
             "purl": "",
-            "version": "5.32.2"
+            "version": "5.34.0"
           },
           {
             "name": "org.webjars:webjars-locator-lite",
